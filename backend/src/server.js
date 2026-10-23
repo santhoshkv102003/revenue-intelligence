@@ -58,13 +58,26 @@ app.post('/api/admin/seed', async (req, res) => {
 // Download sample data files endpoint
 app.get('/api/sample-files/:filename', (req, res) => {
   const safeFilename = path.basename(req.params.filename);
-  const sampleFilePath = path.resolve(__dirname, '../../sample-data', safeFilename);
-  if (fs.existsSync(sampleFilePath)) {
-    res.download(sampleFilePath, safeFilename);
+  const sampleFilePath1 = path.resolve(__dirname, '../../sample-data', safeFilename);
+  const sampleFilePath2 = path.resolve(process.cwd(), 'sample-data', safeFilename);
+  const targetPath = fs.existsSync(sampleFilePath1) ? sampleFilePath1 : sampleFilePath2;
+
+  if (fs.existsSync(targetPath)) {
+    res.download(targetPath, safeFilename);
   } else {
     res.status(404).json({ error: 'Sample file not found' });
   }
 });
+
+// Serve static frontend build if available (unified fullstack)
+const frontendDist = path.resolve(__dirname, '../../frontend/dist');
+if (fs.existsSync(frontendDist)) {
+  app.use(express.static(frontendDist));
+  app.get('*', (req, res, next) => {
+    if (req.path.startsWith('/api')) return next();
+    res.sendFile(path.join(frontendDist, 'index.html'));
+  });
+}
 
 // Error handling middleware
 app.use((err, req, res, next) => {

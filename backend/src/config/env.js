@@ -1,4 +1,5 @@
 import dotenv from 'dotenv';
+import path from 'path';
 dotenv.config();
 
 export const ENV = {
@@ -7,6 +8,6 @@ export const ENV = {
   MONGODB_URI: process.env.MONGODB_URI || '',
   LLM_API_KEY: process.env.LLM_API_KEY || '',
   LLM_PROVIDER: process.env.LLM_PROVIDER || 'gemini',
-  EXPORT_DIR: process.env.EXPORT_DIR || './exports_storage',
-  SAMPLE_DATA_DIR: process.env.SAMPLE_DATA_DIR || '../sample-data'
+  EXPORT_DIR: process.env.EXPORT_DIR || (process.env.VERCEL ? '/tmp/exports_storage' : './exports_storage'),
+  SAMPLE_DATA_DIR: process.env.SAMPLE_DATA_DIR || (process.env.VERCEL ? path.resolve(process.cwd(), 'sample-data') : '../sample-data')
 };

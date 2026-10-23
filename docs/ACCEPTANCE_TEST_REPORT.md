@@ -1,7 +1,7 @@
 # Revenue Intelligence Inbox - Acceptance Test Report
 
-**Execution Timestamp:** 2026-10-22T13:12:27.006Z  
-**Environment:** Node.js v24.11.1 | Mongoose / In-Memory Mongo  
+**Execution Timestamp:** 2026-10-23T04:52:23.762Z  
+**Environment:** Node.js v24.2.0 | Mongoose / In-Memory Mongo  
 **Test Suite Status:** ✅ ALL 13 ACCEPTANCE CRITERIA PASSED (13/13)
 
 ---
@@ -19,9 +19,9 @@
 | **TEST-07** | Conflicting routing signals produce conflictExplanation and reviewable decision | conflictDetected: true with explicit explanation | conflictDetected: true, explanation: "Competing signals: Customer showed strong buying intent but requires critical technical/integration validation (e.g. SSO/API). High revenue opportunity at risk if technical verification stalls." | ✅ PASS |
 | **TEST-08** | Dashboard metrics strictly match actual stored database records | Dashboard total: 52 | Dashboard total: 52 | ✅ PASS |
 | **TEST-09** | Export record counts match the selected filters | Export count = 11 | Export count = 11 | ✅ PASS |
-| **TEST-10** | Manifest accurately reflects generated files, record counts, and SHA-256 checksums | Manifest checksum matches computed checksum: 5c031f47f1763b59067606c9c6d098bef5730e95919d9aa73cc6fa9f1e1afa3b | Manifest checksum: 5c031f47f1763b59067606c9c6d098bef5730e95919d9aa73cc6fa9f1e1afa3b | ✅ PASS |
+| **TEST-10** | Manifest accurately reflects generated files, record counts, and SHA-256 checksums | Manifest checksum matches computed checksum: d5bb79bbe8d6542de5d6b6a594620b3c453aeea5507923fa857484acb18672c8 | Manifest checksum: d5bb79bbe8d6542de5d6b6a594620b3c453aeea5507923fa857484acb18672c8 | ✅ PASS |
 | **TEST-11** | Invalid rows produce row-level validation errors and are rejected | 2 rejected rows with specific row numbers and reasons | 2 rejected rows (Errors logged: 4) | ✅ PASS |
-| **TEST-12** | Findings workspace evidence snippets link to verified conversation records | Valid linked conversation found in DB | Linked conversation ID: 6ada0bb9eab4a699f841a760 (Acme Enterprise) | ✅ PASS |
+| **TEST-12** | Findings workspace evidence snippets link to verified conversation records | Valid linked conversation found in DB | Linked conversation ID: 6adae806269691ce050debc2 (Acme Enterprise) | ✅ PASS |
 | **TEST-13** | Findings workspace contains documented rejected decision with alternative & rationale | Documented rejected decision present with revisitCondition | Found: "Documented Rejected Decision: Autonomous AI-Driven Priority Overwrites for High-Sentiment Conversations" | ✅ PASS |
 
 ---

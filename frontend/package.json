@@ -15,7 +15,8 @@
     "dayjs": "^1.11.13",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "recharts": "^2.15.1"
+    "recharts": "^2.15.1",
+    "revenue-intelligence": "file:.."
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.3.4",

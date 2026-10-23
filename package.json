@@ -1,0 +1,31 @@
+{
+  "name": "revenue-intelligence",
+  "version": "1.0.0",
+  "description": "Revenue Intelligence Inbox - Fullstack Sales Intelligence and Action Platform",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "npm --prefix frontend install && npm --prefix frontend run build",
+    "start": "node backend/src/server.js",
+    "dev": "concurrently -k -p \"[{name}]\" -n \"BACKEND,FRONTEND\" -c \"cyan,magenta\" \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "dev:backend": "node --watch backend/src/server.js",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "seed": "node backend/src/data/seedRunner.js",
+    "test": "node backend/src/tests/acceptanceTests.js"
+  },
+  "dependencies": {
+    "archiver": "^7.0.1",
+    "cors": "^2.8.5",
+    "csv-parser": "^3.2.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongodb-memory-server": "^10.1.4",
+    "mongoose": "^8.9.5",
+    "multer": "^1.4.5-lts.1",
+    "uuid": "^11.0.5",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}

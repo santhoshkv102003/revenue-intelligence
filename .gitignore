@@ -5,3 +5,4 @@ dist
 exports_storage
 .DS_Store
 *.log
+.vercel

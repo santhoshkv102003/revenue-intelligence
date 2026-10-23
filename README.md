@@ -72,36 +72,58 @@ revenue-intelligence-inbox/
 - npm $\ge$ 9
 - Python $\ge$ 3.8 (Optional, for regenerating `.pptx` slides)
 
-### Step 1: Install Backend & Run Tests
+### Unified Single-Command Setup (Recommended)
+You can now run both the backend API and frontend client with a single command from the root directory:
+
 ```bash
-cd backend
+# 1. Install all dependencies
 npm install
+
+# 2. Run automated acceptance tests
 npm test
-```
-*Note: The backend automatically boots an embedded local MongoDB instance if no external `MONGODB_URI` is provided. Zero database configuration or external `mongod` installation is required to run locally!*
 
-### Step 2: Start the Backend Server
-```bash
-npm start
-# Server starts at http://localhost:5000
-# Health check: http://localhost:5000/api/health
-```
-
-### Step 3: Install & Start the Frontend
-In a new terminal:
-```bash
-cd frontend
-npm install
+# 3. Start both Backend & Frontend concurrently
 npm run dev
-# Frontend dev server starts at http://localhost:3000
 ```
-Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+- **Frontend App:** [http://localhost:3000](http://localhost:3000)
+- **Backend API:** [http://localhost:5000](http://localhost:5000)
+- **Health Check:** [http://localhost:5000/api/health](http://localhost:5000/api/health)
+
+*(Zero database configuration required locally — starts an embedded in-memory MongoDB instance automatically!)*
 
 ---
 
-## 4. Environment Variables
+## 4. Deploying to Vercel
 
-Create `.env` in `backend/` if configuring external services:
+The application is fully concatenated and optimized for single-project fullstack deployment on [Vercel](https://vercel.com):
+
+1. **Push your code to GitHub:**
+   ```bash
+   git add .
+   git commit -m "Configure fullstack deployment for Vercel"
+   git push origin main
+   ```
+
+2. **Import into Vercel:**
+   - Go to [vercel.com/new](https://vercel.com/new) and select your GitHub repository `revenue-intelligence`.
+   - Vercel automatically detects the root project settings and uses [vercel.json](file:///c:/Users/santh/Downloads/revenue%20intelligence/vercel.json).
+   - **Framework Preset:** Other / Vite
+   - **Build Command:** `npm run build` *(auto-configured)*
+   - **Output Directory:** `frontend/dist` *(auto-configured)*
+
+3. **Set Environment Variables in Vercel:**
+   - Under **Project Settings > Environment Variables**, add:
+     - `MONGODB_URI`: Your MongoDB Atlas connection string (e.g., `mongodb+srv://<username>:<password>@cluster0.mongodb.net/revenue-intelligence?retryWrites=true&w=majority`).
+       *(Get a free MongoDB Atlas cluster at [mongodb.com/atlas](https://www.mongodb.com/atlas) if you do not have one yet!)*
+     - *(Optional)* `LLM_API_KEY`: Gemini or OpenAI API key.
+
+4. **Click Deploy!**
+   - Vercel deploys the React frontend to global edge CDN and mounts the Express API at `/api/*` via Serverless Functions.
+
+## 5. Environment Variables
+
+Create `.env` in the root or `backend/` if configuring external services:
 
 | Variable | Description | Default (Local) |
 |----------|-------------|-----------------|
@@ -112,7 +134,7 @@ Create `.env` in `backend/` if configuring external services:
 
 ---
 
-## 5. Acceptance Test Verification
+## 6. Acceptance Test Verification
 
 Execute the test suite at any time:
 ```bash

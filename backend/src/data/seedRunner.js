@@ -30,27 +30,28 @@ export function objectsToCSV(data) {
 }
 
 export async function writeSampleDataFiles() {
-  const sampleDataDir = path.resolve(__dirname, '../../../sample-data');
-  if (!fs.existsSync(sampleDataDir)) {
-    fs.mkdirSync(sampleDataDir, { recursive: true });
-  }
-
   const initialRows = generateSyntheticConversations(52);
   const updateRows = generateUpdateAndDuplicateFile(initialRows);
 
-  // 1. sample_conversations_initial.csv
-  const initialCsv = objectsToCSV(initialRows);
-  fs.writeFileSync(path.join(sampleDataDir, 'sample_conversations_initial.csv'), initialCsv, 'utf8');
+  try {
+    const sampleDataDir = path.resolve(__dirname, '../../../sample-data');
+    if (!fs.existsSync(sampleDataDir)) {
+      fs.mkdirSync(sampleDataDir, { recursive: true });
+    }
 
-  // 2. sample_conversations_initial.json
-  fs.writeFileSync(path.join(sampleDataDir, 'sample_conversations_initial.json'), JSON.stringify(initialRows, null, 2), 'utf8');
+    // 1. sample_conversations_initial.csv
+    const initialCsv = objectsToCSV(initialRows);
+    fs.writeFileSync(path.join(sampleDataDir, 'sample_conversations_initial.csv'), initialCsv, 'utf8');
 
-  // 3. sample_conversations_update_and_duplicates.csv
-  const updateCsv = objectsToCSV(updateRows);
-  fs.writeFileSync(path.join(sampleDataDir, 'sample_conversations_update_and_duplicates.csv'), updateCsv, 'utf8');
+    // 2. sample_conversations_initial.json
+    fs.writeFileSync(path.join(sampleDataDir, 'sample_conversations_initial.json'), JSON.stringify(initialRows, null, 2), 'utf8');
 
-  // 4. data_dictionary.md
-  const dataDictionary = `# Revenue Intelligence Inbox - Data Dictionary
+    // 3. sample_conversations_update_and_duplicates.csv
+    const updateCsv = objectsToCSV(updateRows);
+    fs.writeFileSync(path.join(sampleDataDir, 'sample_conversations_update_and_duplicates.csv'), updateCsv, 'utf8');
+
+    // 4. data_dictionary.md
+    const dataDictionary = `# Revenue Intelligence Inbox - Data Dictionary
 
 | Column Name | Data Type | Requirement | Description | Example |
 |-------------|-----------|-------------|-------------|---------|
@@ -77,8 +78,12 @@ export async function writeSampleDataFiles() {
 3. **Field Ownership**: Manual overrides (priority, routing category, sentiment, owner, next action) set by managers are never overwritten by automated re-imports.
 `;
 
-  fs.writeFileSync(path.join(sampleDataDir, 'data_dictionary.md'), dataDictionary, 'utf8');
-  console.log(`Generated sample data files successfully in: ${sampleDataDir}`);
+    fs.writeFileSync(path.join(sampleDataDir, 'data_dictionary.md'), dataDictionary, 'utf8');
+    console.log(`Generated sample data files successfully in: ${sampleDataDir}`);
+  } catch (err) {
+    console.warn(`Sample data disk write skipped (${err.message}). Pre-generated files will be served.`);
+  }
+
   return { initialRows, updateRows };
 }
 

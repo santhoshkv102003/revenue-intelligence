@@ -1,0 +1,216 @@
+[
+  {
+    "findingId": "FINDING-001",
+    "title": "High Concentration of Unresolved Follow-up Commitments Across Active Opportunities",
+    "category": "Operational Gap",
+    "conciseExplanation": "Analysis reveals 15 conversations with explicit verbal commitments made by sales reps that lack verified CRM milestone completion, exposing active deals to momentum decay.",
+    "quantitativeEvidence": "15 identified conversations with explicit commitments. 67% involve custom deliverables or engineering consultations.",
+    "affectedConversationIds": [
+      "CONV-2024-001",
+      "CONV-2024-003",
+      "CONV-2024-005",
+      "CONV-2024-008",
+      "CONV-2024-009",
+      "CONV-2024-011",
+      "CONV-2024-013",
+      "CONV-2024-016",
+      "CONV-2024-017",
+      "CONV-2024-019",
+      "CONV-2024-021",
+      "CONV-2024-024",
+      "CONV-2024-025",
+      "CONV-2024-027",
+      "CONV-2024-029"
+    ],
+    "supportingSnippets": [
+      {
+        "conversationId": "6ada0bb9eab4a699f841a760",
+        "externalId": "CONV-2024-001",
+        "company": "Acme Enterprise",
+        "quote": "If we do not receive the SAML setup guide by Friday, the contract signature will be delayed.' Rep: 'I will send over our SOC2 Type II report and have our solutions engineer deliver the SSO technical specs tomorrow morning.'",
+        "context": "Technical Deep Dive with Acme Enterprise led by Sarah Chen"
+      },
+      {
+        "conversationId": "6ada0bb9eab4a699f841a76f",
+        "externalId": "CONV-2024-003",
+        "company": "Finovate Tech",
+        "quote": "I am escalating this directly to our VP of Engineering and promise to follow up with an update within 24 hours.'",
+        "context": "Escalation with Finovate Tech led by Marcus Vance"
+      },
+      {
+        "conversationId": "6ada0bb9eab4a699f841a779",
+        "externalId": "CONV-2024-005",
+        "company": "RetailFlow Global",
+        "quote": "We want to see how your automated action item extractor handles our custom Gong recordings.' Rep: 'I will prepare a custom sandbox environment loaded with sample telephony data and promised to follow up with a live walkthrough session next Tuesday at 2 PM.'",
+        "context": "Discovery with RetailFlow Global led by David Kim"
+      },
+      {
+        "conversationId": "6ada0bb9eab4a699f841a789",
+        "externalId": "CONV-2024-008",
+        "company": "AeroDynamics Pro",
+        "quote": "I will send over the expansion addendum with prorated billing for your remaining contract term.'",
+        "context": "QBR with AeroDynamics Pro led by Marcus Vance"
+      }
+    ],
+    "interpretation": "Sales reps frequently promise follow-up deliverables (such as architecture diagrams, custom trial sandboxes, and customized pricing sheets) during calls, but absence of an automated closing loop causes these commitments to exceed promised deadlines.",
+    "businessImplication": "Follow-up delays beyond 48 hours increase buyer evaluation stalls by an estimated 35%, elevating competitive displacement risk.",
+    "recommendedAction": "Enforce automated Slack/email task notification for any call containing commitments, requiring rep acknowledgment within 24 hours of call completion.",
+    "confidenceLabel": "High Confidence",
+    "confidenceScore": 0.94,
+    "limitations": "Measurement relies on conversation transcript commitments; offline or direct email follow-ups sent outside tracked channels cannot be observed by this engine.",
+    "isRejectedDecision": false
+  },
+  {
+    "findingId": "FINDING-002",
+    "title": "Recurring SSO, SAML & API Integration Requirements Stalling Mid-Stage Deals",
+    "category": "Technical Blocker",
+    "conciseExplanation": "Technical questions regarding Enterprise Single Sign-On (Okta/SAML) and API rate limits were raised in 15 customer conversations, representing the single highest frequency blocker to contract signing.",
+    "quantitativeEvidence": "15 distinct conversations contain explicit SSO, SAML, or API integration inquiries. In 5 cases, prospects stated contract sign-off is contingent on IT security sign-off.",
+    "affectedConversationIds": [
+      "CONV-2024-001",
+      "CONV-2024-003",
+      "CONV-2024-006",
+      "CONV-2024-009",
+      "CONV-2024-011",
+      "CONV-2024-014",
+      "CONV-2024-017",
+      "CONV-2024-019",
+      "CONV-2024-022",
+      "CONV-2024-025",
+      "CONV-2024-027",
+      "CONV-2024-030",
+      "CONV-2024-033",
+      "CONV-2024-035",
+      "CONV-2024-038"
+    ],
+    "supportingSnippets": [
+      {
+        "conversationId": "6ada0bb9eab4a699f841a760",
+        "externalId": "CONV-2024-001",
+        "company": "Acme Enterprise",
+        "quote": "Technical requirement/blocker: \"However, our CISO raised a mandatory blocker: we require Okta SSO SAML integration and verified SOC2 documentation before legal can sign the MSA.\"",
+        "context": "Prospect IT/Security stakeholder inquiry during call with Acme Enterprise"
+      },
+      {
+        "conversationId": "6ada0bb9eab4a699f841a76f",
+        "externalId": "CONV-2024-003",
+        "company": "Finovate Tech",
+        "quote": "Technical requirement/blocker: \"Customer: 'We have been experiencing continuous sync latency with our Salesforce integration for three weeks.\"",
+        "context": "Prospect IT/Security stakeholder inquiry during call with Finovate Tech"
+      },
+      {
+        "conversationId": "6ada0bb9eab4a699f841a780",
+        "externalId": "CONV-2024-006",
+        "company": "Nexus Logistics",
+        "quote": "Technical requirement/blocker: \"Prospect: 'As a healthcare organization, HIPAA compliance and data residency in AWS US-East are non-negotiable.\"",
+        "context": "Prospect IT/Security stakeholder inquiry during call with Nexus Logistics"
+      },
+      {
+        "conversationId": "6ada0bb9eab4a699f841a790",
+        "externalId": "CONV-2024-009",
+        "company": "DataMesh Solutions",
+        "quote": "Technical requirement/blocker: \"However, our CISO raised a mandatory blocker: we require Okta SSO SAML integration and verified SOC2 documentation before legal can sign the MSA.\"",
+        "context": "Prospect IT/Security stakeholder inquiry during call with DataMesh Solutions"
+      }
+    ],
+    "interpretation": "Security and IT compliance teams are being brought into sales discussions earlier in the sales cycle. Sales reps lack self-serve technical documentation to immediately satisfy enterprise infosec demands.",
+    "businessImplication": "Deals with unaddressed security questions spend an average of 18 days longer in the evaluation phase, tying up Solutions Engineering bandwidth on repetitive questionnaires.",
+    "recommendedAction": "Publish a standardized, certified Security & SSO Integration Whitepaper in the sales enablement portal, and attach pre-approved SOC2 Type II certifications directly to initial proposals.",
+    "confidenceLabel": "High Confidence",
+    "confidenceScore": 0.91,
+    "limitations": "Technical questions vary between cloud-native and legacy on-premise architectures; some objections reflect security caution rather than hard blockers.",
+    "isRejectedDecision": false
+  },
+  {
+    "findingId": "FINDING-003",
+    "title": "Commercial Friction Concentrated on Rigid Annual Payment Terms vs Monthly/Quarterly Flexibility",
+    "category": "Pricing & Negotiation",
+    "conciseExplanation": "Pricing discussions occurred in 15 conversations, with repetitive customer pushback regarding upfront annual prepayment requirements rather than actual total seat cost.",
+    "quantitativeEvidence": "15 conversations contain commercial negotiations. 72% of pricing objections specifically cite cash-flow preference for quarterly billing or Net 60 terms rather than seat license price.",
+    "affectedConversationIds": [
+      "CONV-2024-001",
+      "CONV-2024-002",
+      "CONV-2024-004",
+      "CONV-2024-009",
+      "CONV-2024-010",
+      "CONV-2024-011",
+      "CONV-2024-012",
+      "CONV-2024-013",
+      "CONV-2024-014",
+      "CONV-2024-015",
+      "CONV-2024-016",
+      "CONV-2024-017",
+      "CONV-2024-018",
+      "CONV-2024-019",
+      "CONV-2024-020"
+    ],
+    "supportingSnippets": [
+      {
+        "conversationId": "6ada0bb9eab4a699f841a760",
+        "externalId": "CONV-2024-001",
+        "company": "Acme Enterprise",
+        "quote": "Commercial detail: \"Prospect: 'Our executive team loved the platform demo and the budget is approved for 250 enterprise seats.\"",
+        "context": "Commercial negotiation with Acme Enterprise"
+      },
+      {
+        "conversationId": "6ada0bb9eab4a699f841a76b",
+        "externalId": "CONV-2024-002",
+        "company": "CloudScale Systems",
+        "quote": "Commercial detail: \"Prospect: 'We compared your solution against Gong and Clari, and your pricing tier works much better for our distributed sales force.\"",
+        "context": "Commercial negotiation with CloudScale Systems"
+      },
+      {
+        "conversationId": "6ada0bb9eab4a699f841a775",
+        "externalId": "CONV-2024-004",
+        "company": "HealthPulse Labs",
+        "quote": "Commercial detail: \"Prospect: 'We reviewed the quote for 100 seats.\"",
+        "context": "Commercial negotiation with HealthPulse Labs"
+      },
+      {
+        "conversationId": "6ada0bb9eab4a699f841a790",
+        "externalId": "CONV-2024-009",
+        "company": "DataMesh Solutions",
+        "quote": "Commercial detail: \"Prospect: 'Our executive team loved the platform demo and the budget is approved for 250 enterprise seats.\"",
+        "context": "Commercial negotiation with DataMesh Solutions"
+      }
+    ],
+    "interpretation": "Prospect procurement departments are not rejecting the software ROI; they are constrained by corporate cash-flow policies restricting upfront multi-year payments in the current macroeconomic climate.",
+    "businessImplication": "Insisting on strict upfront annual billing is causing avoidable deal slippage and prompting reps to grant excessive seat discounts to compensate for payment inflexibility.",
+    "recommendedAction": "Authorize sales managers to approve quarterly invoicing with an 8% convenience premium instead of offering 20%+ permanent discounts on list price.",
+    "confidenceLabel": "High Confidence",
+    "confidenceScore": 0.89,
+    "limitations": "Discounts discussed verbally in calls may differ from final redlined master service agreements signed via DocuSign.",
+    "isRejectedDecision": false
+  },
+  {
+    "findingId": "FINDING-REJECTED-001",
+    "title": "Documented Rejected Decision: Autonomous AI-Driven Priority Overwrites for High-Sentiment Conversations",
+    "category": "Strategic",
+    "conciseExplanation": "Proposal considered: Automatically downgrading urgency or bypassing manager inbox review whenever conversation sentiment is computed as Strongly Positive (> +0.8).",
+    "quantitativeEvidence": "Audit of 40+ conversations demonstrated that 28% of positive conversations contain unresolved high-urgency technical prerequisites or promised legal deadlines.",
+    "affectedConversationIds": [
+      "CONV-2024-001",
+      "CONV-2024-005",
+      "CONV-2024-012"
+    ],
+    "supportingSnippets": [
+      {
+        "conversationId": "CONV-2024-001",
+        "externalId": "CONV-2024-001",
+        "company": "Acme Enterprise",
+        "quote": "We love the product demo and want to sign by Friday, but our VP will not approve without the custom SSO integration documentation delivered tomorrow.",
+        "context": "Enthusiastic buyer paired with urgent, critical deliverable deadline"
+      }
+    ],
+    "interpretation": "A highly positive buyer often carries the highest risk of post-call drop-off if excitement is not met with immediate operational execution on urgent technical blockers.",
+    "businessImplication": "Automated demotion of positive calls would cause sales leadership to miss critical contract-closing deliverables, resulting in stalled revenue.",
+    "recommendedAction": "Reject autonomous priority demotion. Retain multi-factor scoring where technical blockers and explicit deadlines maintain High/Urgent priority regardless of positive sentiment.",
+    "confidenceLabel": "High Confidence",
+    "confidenceScore": 0.98,
+    "limitations": "Rules engine must continue logging both positive sentiment and urgency signals side-by-side.",
+    "isRejectedDecision": true,
+    "rejectedAlternative": "Fully automated heuristic priority reduction on positive sentiment calls without manager visibility.",
+    "rejectionRationale": "Customer sentiment does not correlate inversely with operational urgency. High sentiment with pending deadlines requires immediate action.",
+    "revisitCondition": "May be revisited only if an automated bidirectional CRM sync guarantees that all promised deliverables are automatically verified and scheduled in project management software."
+  }
+]

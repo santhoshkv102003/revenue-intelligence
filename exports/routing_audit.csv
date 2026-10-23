@@ -1,0 +1,12 @@
+externalId,company,primaryQueue,effectiveQueue,calculatedPriority,effectivePriority,priorityScore,ruleVersion,matchedRulesCount,conflictDetected,conflictExplanation,isManuallyOverridden,overrideReason,evaluatedAt
+CONV-2024-NEW-5,VentureTech Innovations 5,Positive Buying Signals,Positive Buying Signals,High,High,50,v1.4.0-composite,2,FALSE,None,FALSE,,2026-10-22T13:12:26.705Z
+CONV-2024-041,RetailFlow Global,Technical Questions,Technical Questions,Urgent,Urgent,100,v1.4.0-composite,4,TRUE,Competing signals: Customer showed strong buying intent but requires critical technical/integration validation (e.g. SSO/API). High revenue opportunity at risk if technical verification stalls.,FALSE,,2026-10-22T13:12:26.342Z
+CONV-2024-036,Optima Health Tech,Pricing and Negotiation,Pricing and Negotiation,Low,Low,0,v1.4.0-composite,1,FALSE,None,FALSE,,2026-10-22T13:12:26.294Z
+CONV-2024-031,CyberShield InfoSec,Unassigned / Needs Review,Unassigned / Needs Review,Medium,Medium,45,v1.4.0-composite,0,FALSE,None,FALSE,,2026-10-22T13:12:26.233Z
+CONV-2024-026,CloudScale Systems,Positive Buying Signals,Positive Buying Signals,Urgent,Urgent,75,v1.4.0-composite,2,FALSE,None,FALSE,,2026-10-22T13:12:26.148Z
+CONV-2024-021,DataMesh Solutions,Follow-up Required,Follow-up Required,Low,Low,20,v1.4.0-composite,1,FALSE,None,FALSE,,2026-10-22T13:12:26.083Z
+CONV-2024-016,HealthPulse Labs,Positive Buying Signals,Positive Buying Signals,High,High,50,v1.4.0-composite,3,FALSE,None,FALSE,,2026-10-22T13:12:26.630Z
+CONV-2024-011,Apex Media Group,Customer Risk,Customer Risk,Urgent,Urgent,100,v1.4.0-composite,4,FALSE,None,TRUE,Executive escalation override,2026-10-22T13:12:26.591Z
+CONV-2024-006,Nexus Logistics,Technical Questions,Technical Questions,Medium,Medium,25,v1.4.0-composite,1,FALSE,None,FALSE,,2026-10-22T13:12:25.792Z
+CONV-2024-001,Acme Enterprise,Technical Questions,Technical Questions,Urgent,Urgent,100,v1.4.0-composite,4,TRUE,Competing signals: Customer showed strong buying intent but requires critical technical/integration validation (e.g. SSO/API). High revenue opportunity at risk if technical verification stalls.,FALSE,,2026-10-22T13:12:25.649Z
+CONV-2024-ALT-991,Acme Enterprise,Unassigned / Needs Review,Unassigned / Needs Review,Urgent,Urgent,100,v1.4.0-composite,4,TRUE,Ambiguous record identity flagged: Possible duplicate conversation with different External ID (CONV-2024-001 vs CONV-2024-ALT-991) for Acme Enterprise around same timestamp.,FALSE,,2026-10-22T13:12:26.718Z

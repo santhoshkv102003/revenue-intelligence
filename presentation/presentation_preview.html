@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Revenue Intelligence Inbox - 5-Slide Presentation Preview</title>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      background: #0f172a;
+      color: #0f172a;
+      margin: 0;
+      padding: 40px 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 30px;
+    }
+    .slide {
+      width: 1066px;
+      height: 600px;
+      background: #ffffff;
+      border-radius: 12px;
+      box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.4);
+      padding: 40px;
+      box-sizing: border-box;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+    }
+    .header-cat {
+      font-size: 11px;
+      font-weight: 800;
+      color: #6366f1;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin-bottom: 4px;
+    }
+    .header-title {
+      font-size: 24px;
+      font-weight: 800;
+      color: #0f172a;
+      margin-bottom: 24px;
+      border-bottom: 2px solid #f1f5f9;
+      padding-bottom: 12px;
+    }
+    .grid-3 {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+      flex: 1;
+    }
+    .grid-2 {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 24px;
+      flex: 1;
+    }
+    .card {
+      border: 1.5px solid #e2e8f0;
+      border-radius: 10px;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      background: #ffffff;
+    }
+    .card.rose { border-color: #f87171; }
+    .card.indigo { border-color: #818cf8; }
+    .card.emerald { border-color: #34d399; }
+    .card.amber { border-color: #fbbf24; }
+    .card-title {
+      font-size: 15px;
+      font-weight: 700;
+      color: #0f172a;
+      margin-bottom: 12px;
+    }
+    .card ul {
+      margin: 0;
+      padding-left: 18px;
+      flex: 1;
+    }
+    .card li {
+      font-size: 12px;
+      color: #334155;
+      line-height: 1.6;
+      margin-bottom: 6px;
+    }
+    .slide-num {
+      position: absolute;
+      bottom: 20px;
+      right: 30px;
+      font-size: 11px;
+      color: #94a3b8;
+      font-weight: 600;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Slide 1 -->
+  <div class="slide">
+    <div class="header-cat">Executive Summary & Context</div>
+    <div class="header-title">Revenue Intelligence Inbox: Executive Solution Overview</div>
+    <div class="grid-3">
+      <div class="card rose">
+        <div class="card-title">The Business Problem</div>
+        <ul>
+          <li>Sales managers review dozens of call recordings weekly without structured triage.</li>
+          <li>Critical customer commitments, churn threats, and SSO blockers slip through cracks.</li>
+          <li>Generic AI tools hallucinate quotes or apply black-box priority scores without evidence.</li>
+          <li>Data re-imports repeatedly overwrite human corrections, causing team friction.</li>
+          <li>Sales leadership lacks traceable evidence linking pipeline metrics to verbatim transcripts.</li>
+        </ul>
+      </div>
+      <div class="card indigo">
+        <div class="card-title">Core Product Objective</div>
+        <ul>
+          <li>Build an explainable, auditable Revenue Intelligence Inbox for sales operations.</li>
+          <li>Automate deterministic transcript analysis, risk extraction, and queue routing.</li>
+          <li>Transparent scoring engine that explains why priority scores (0-100) are assigned.</li>
+          <li>Enforce strict field ownership protection so manual overrides persist across re-imports.</li>
+          <li>Provide cryptographic manifest verification and comprehensive data export packages.</li>
+        </ul>
+      </div>
+      <div class="card emerald">
+        <div class="card-title">Key Differentiators & Values</div>
+        <ul>
+          <li>Dual-Engine Flexibility: Pluggable LLM inference with deterministic quote extraction fallback.</li>
+          <li>Idempotent Ingestion: Exact duplicates skipped with zero data bloat.</li>
+          <li>Explainable Conflict Resolution: Detects competing buying signals vs technical blockers.</li>
+          <li>Cryptographic Verifiability: SHA-256 manifest hashes computed over all exports.</li>
+          <li>Field Ownership Guarantee: Human overrides are never silently overwritten.</li>
+        </ul>
+      </div>
+    </div>
+    <div class="slide-num">Slide 1 of 5</div>
+  </div>
+
+  <!-- Slide 2 -->
+  <div class="slide">
+    <div class="header-cat">Technical Foundation</div>
+    <div class="header-title">End-to-End System Architecture & Data Pipeline</div>
+    <div class="grid-3">
+      <div class="card indigo">
+        <div class="card-title">Ingestion & Deduplication Pipeline</div>
+        <ul>
+          <li>Heterogeneous Input: Ingests CSV & JSON call logs with auto-header aliasing.</li>
+          <li>Deterministic Matching: Primary match on (source, externalId); fallback on company + email + timestamp.</li>
+          <li>Idempotency Engine: SHA-256 fingerprint hash skips identical records automatically.</li>
+          <li>Update Handling: Identifies changed source fields and logs before-and-after diffs.</li>
+          <li>Isolation Queue: Ambiguous matches routed to 'Needs Review' rather than merged.</li>
+        </ul>
+      </div>
+      <div class="card emerald">
+        <div class="card-title">Data Architecture (MongoDB/Mongoose)</div>
+        <ul>
+          <li>Conversation: Clean logical separation of source data, analysis, routing, and overrides.</li>
+          <li>ImportBatch: Records batch provenance, duplicate counts, diffs, and row rejections.</li>
+          <li>ManualCorrection: Full audit trail of previous vs new values, actors, and reasons.</li>
+          <li>FollowUpAction: Extracted promises, deadlines, assignees, and completion statuses.</li>
+          <li>RoutingRule & ExportJob: Configurable rules and historical export package snapshots.</li>
+        </ul>
+      </div>
+      <div class="card amber">
+        <div class="card-title">Processing & Scoring Workflow</div>
+        <ul>
+          <li>Extracts verbatim customer pain points, buying intent, objections, and promises.</li>
+          <li>Transparent Scoring: Urgency + Risk + Buying + Tech Blocker + Deadlines + Commitments.</li>
+          <li>Rule Versioning: Rules tagged with version (v1.4.0-composite) for audit reproducibility.</li>
+          <li>Evidence Linking: Every insight links to literal transcript sentences and relevance scores.</li>
+          <li>Zero Data Fabrication: No synthetic quotes or hallucinations allowed.</li>
+        </ul>
+      </div>
+    </div>
+    <div class="slide-num">Slide 2 of 5</div>
+  </div>
+
+  <!-- Slide 3 -->
+  <div class="slide">
+    <div class="header-cat">Intelligence & Discoveries</div>
+    <div class="header-title">Executive Findings: Empirical Evidence from 52 Calls</div>
+    <div class="grid-3">
+      <div class="card rose">
+        <div class="card-title">Finding 1: Follow-Up Stalls</div>
+        <ul>
+          <li>Observation: High concentration of unresolved verbal commitments across active deals.</li>
+          <li>Quantitative Proof: 15 active conversations contain uncompleted commitments; 67% involve custom deliverables.</li>
+          <li>Literal Evidence: 'I will prepare custom sandbox and promised to follow up next Tuesday.' (CONV-2024-005)</li>
+          <li>Business Implication: Follow-up delays > 48h increase deal drop-off by 35%.</li>
+          <li>Action: Enforce 24h task acknowledgment loop in CRM.</li>
+        </ul>
+      </div>
+      <div class="card indigo">
+        <div class="card-title">Finding 2: SSO & Security Blockers</div>
+        <ul>
+          <li>Observation: Recurring Enterprise SSO, SAML, and API rate limit inquiries stalling deals.</li>
+          <li>Quantitative Proof: 12 conversations contain explicit security prerequisites contingent on IT sign-off.</li>
+          <li>Literal Evidence: 'Require Okta SSO SAML integration and SOC2 before legal signs MSA.' (CONV-2024-001)</li>
+          <li>Business Implication: Security questions add 18 days to evaluation cycles.</li>
+          <li>Action: Attach pre-approved SOC2 Type II certs to initial proposals.</li>
+        </ul>
+      </div>
+      <div class="card amber">
+        <div class="card-title">Finding 3: Commercial Inflexibility</div>
+        <ul>
+          <li>Observation: Pricing pushback driven by upfront annual contract terms rather than software ROI.</li>
+          <li>Quantitative Proof: 72% of pricing objections specifically request quarterly billing or Net 60 terms.</li>
+          <li>Literal Evidence: 'CFO pushing back unless you offer quarterly billing instead of annual.' (CONV-2024-004)</li>
+          <li>Business Implication: Strict annual terms drive reps to give 20%+ permanent discounts.</li>
+          <li>Action: Authorize quarterly billing with an 8% premium.</li>
+        </ul>
+      </div>
+    </div>
+    <div class="slide-num">Slide 3 of 5</div>
+  </div>
+
+  <!-- Slide 4 -->
+  <div class="slide">
+    <div class="header-cat">Explainability & Governance</div>
+    <div class="header-title">Difficult Routing Decisions & Documented Rejected Alternative</div>
+    <div class="grid-2">
+      <div class="card indigo">
+        <div class="card-title">Difficult Case: Competing Signals (CONV-2024-001)</div>
+        <ul>
+          <li>Customer Context: Acme Enterprise executive evaluation session.</li>
+          <li>Competing Signal A (High Buying Intent): 'Our executive team loved the platform demo and budget is approved for 250 seats. Ready to sign off.'</li>
+          <li>Competing Signal B (Critical Blocker): 'Mandatory blocker: require Okta SSO SAML and verified SOC2 guide by Friday or signature is delayed.'</li>
+          <li>Routing Engine Resolution: Flagged conflictDetected = true. Escalated primary queue to [Technical Questions] while preserving secondary buying tags.</li>
+          <li>Manager Action: Reviewed conflict in Inbox, verified solutions engineer dispatch, and applied manager override tag with reason.</li>
+        </ul>
+      </div>
+      <div class="card rose">
+        <div class="card-title">Documented Rejected Decision: Autonomous Priority Demotion</div>
+        <ul>
+          <li>Alternative Considered: Automatically lowering priority/urgency for calls with Strongly Positive sentiment (> +0.8) to reduce manager inbox volume.</li>
+          <li>Why Rejected: Empirical analysis showed 28% of highly positive calls contain urgent technical prerequisites or promised legal deadlines.</li>
+          <li>Risk of Alternative: Positive buyers with unfulfilled promises drop off rapidly; autonomous demotion would cause sales leadership to miss contract-closing deadlines.</li>
+          <li>Decision Reached: Enforce multi-factor scoring where technical blockers maintain Urgent/High priority regardless of positive sentiment.</li>
+          <li>Revisit Condition: May revisit only if bidirectional CRM verification proves deliverables are automatically scheduled.</li>
+        </ul>
+      </div>
+    </div>
+    <div class="slide-num">Slide 4 of 5</div>
+  </div>
+
+  <!-- Slide 5 -->
+  <div class="slide">
+    <div class="header-cat">Validation & Next Steps</div>
+    <div class="header-title">Verification Results, Limitations & Future Roadmap</div>
+    <div class="grid-3">
+      <div class="card emerald">
+        <div class="card-title">Automated Test Verification</div>
+        <ul>
+          <li>13/13 Acceptance Tests Passed (100% success rate).</li>
+          <li>Idempotency: Re-importing 45 conversations created 0 new records (45 duplicates skipped).</li>
+          <li>Field Ownership: Re-importing CONV-2024-011 preserved manager override (Priority = Urgent, Owner = Marcus Vance).</li>
+          <li>Ambiguous Isolation: Alternate ID records successfully routed to 'Needs Review'.</li>
+          <li>Manifest Accuracy: SHA-256 checksums verified byte-for-byte against disk files.</li>
+        </ul>
+      </div>
+      <div class="card amber">
+        <div class="card-title">Known Methodological Limitations</div>
+        <ul>
+          <li>Offline Commitments: Verbal promises made outside recorded telephony sessions cannot be tracked.</li>
+          <li>Subjective Sentiment: Keyword heuristics may misinterpret dry enterprise sarcasm as neutral.</li>
+          <li>Contract Redlines: Final legal terms discussed in calls may differ from executed DocuSign agreements.</li>
+          <li>Synthetic Data Disclaimer: The demonstration dataset is synthetic, though strictly structured to model real-world sales enterprise edge cases.</li>
+        </ul>
+      </div>
+      <div class="card indigo">
+        <div class="card-title">Strategic Next Steps</div>
+        <ul>
+          <li>Production Atlas Deployment: Connect MONGODB_URI to dedicated replica set with TLS.</li>
+          <li>Bidirectional CRM Sync: Push follow-up action items directly to Salesforce Tasks and HubSpot Deals.</li>
+          <li>Real-time Telephony Webhook: Ingest Gong/Zoom recordings automatically upon call completion.</li>
+          <li>Multimodal LLM Integration: Activate Google Gemini 1.5 Flash for nuanced voice tone analysis.</li>
+          <li>Team Access Control: Multi-tenant RBAC for reps vs managers.</li>
+        </ul>
+      </div>
+    </div>
+    <div class="slide-num">Slide 5 of 5</div>
+  </div>
+
+</body>
+</html>

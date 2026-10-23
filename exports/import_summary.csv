@@ -1,0 +1,4 @@
+batchId,filename,importedAt,totalRows,newRecordsCount,updatedRecordsCount,duplicateRecordsCount,ambiguousRecordsCount,rejectedRecordsCount,status
+BATCH-1792674746556-DEF249,sample_conversations_update_and_duplicates.csv,2026-10-22T13:12:26.556Z,29,7,10,10,2,2,Committed
+BATCH-1792674746404-93D612,sample_conversations_initial.csv,2026-10-22T13:12:26.404Z,45,0,0,45,0,0,Committed
+BATCH-1792674745632-412A5F,sample_conversations_initial.csv,2026-10-22T13:12:25.633Z,45,45,0,0,0,0,Committed

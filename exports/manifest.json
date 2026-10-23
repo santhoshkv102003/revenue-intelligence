@@ -1,0 +1,46 @@
+{
+  "exportId": "EXP-1792674746816-5B75EF",
+  "exportTimestamp": "2026-10-22T13:12:26.816Z",
+  "applicationVersion": "1.0.0",
+  "exportedFilenames": [
+    "conversations.csv",
+    "conversations.json",
+    "routing_audit.csv",
+    "follow_up_actions.csv",
+    "import_summary.csv",
+    "corrections_audit.csv",
+    "findings.json"
+  ],
+  "recordCounts": {
+    "conversations.csv": 11,
+    "conversations.json": 11,
+    "routing_audit.csv": 11,
+    "follow_up_actions.csv": 29,
+    "import_summary.csv": 3,
+    "corrections_audit.csv": 1,
+    "findings.json": 4
+  },
+  "appliedFilters": {
+    "salesRep": "Sarah Chen"
+  },
+  "sourceImportBatchIds": [
+    "BATCH-1792674746556-DEF249",
+    "BATCH-1792674745632-412A5F"
+  ],
+  "dataSchemaVersion": "1.4.0",
+  "analysisAndRoutingRuleVersions": "v1.4.0-composite",
+  "processingStatus": "Completed",
+  "warningsAndExcludedRecordCounts": {
+    "excludedDueToFilter": 41,
+    "validationWarnings": 0
+  },
+  "sha256Checksums": {
+    "conversations.csv": "5c031f47f1763b59067606c9c6d098bef5730e95919d9aa73cc6fa9f1e1afa3b",
+    "conversations.json": "f748066de9a02250b12757e125456b90886f55ed1bbacf02af5f9013ff70597c",
+    "routing_audit.csv": "2b1151d5c00a0c53764316eb5d1b1755940739a034f8750b50eb1797e3e60a26",
+    "follow_up_actions.csv": "86f20d4903067907e39e3daa8c023b22d9aefda66c7f4309478e28ad7788e164",
+    "import_summary.csv": "2b0a651ac4fd4fb2ce353f4d5bbc545e3351036fbf79351335efade9a3dcaefb",
+    "corrections_audit.csv": "288b100b9be29ae451088f5f08a21b4853a7f3d66c160b3cdeb0a8fe3fc5f4e7",
+    "findings.json": "76a7f34a6f7b0266ac6a7658516b824f7c53206b4957f46c4a9f5d661211a68c"
+  }
+}

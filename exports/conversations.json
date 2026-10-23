@@ -1,0 +1,1700 @@
+[
+  {
+    "analysis": {
+      "engine": "deterministic-heuristic-v1.4",
+      "analyzedAt": "2026-10-22T13:12:26.705Z",
+      "summary": "Discovery session with VentureTech Innovations 5. Core pain: Inquiry regarding optimizing VentureTech Innovations 5 workflow efficiency Evaluation proceeding routinely.",
+      "keyDiscussionPoints": [
+        "Core pain: Inquiry regarding optimizing VentureTech Innovations 5 workflow efficiency"
+      ],
+      "customerPainPoints": [
+        "Inquiry regarding optimizing VentureTech Innovations 5 workflow efficiency"
+      ],
+      "buyingIntentSignals": [],
+      "objections": [],
+      "competitorMentions": [],
+      "pricingDiscussions": [],
+      "technicalQuestions": [],
+      "commitmentsAndPromises": [
+        "Rep/Team commitment: \"Ready to sign if setup can happen this month.' Rep: 'I will send over our standard implementation agreement.'\""
+      ],
+      "actionItems": [
+        {
+          "task": "Ready to sign if setup can happen this month.' Rep: 'I will send over our standa...",
+          "owner": "Sarah Chen",
+          "dueDate": "Next Business Day",
+          "evidenceSnippet": "Ready to sign if setup can happen this month.' Rep: 'I will send over our standard implementation agreement.'"
+        }
+      ],
+      "deadlines": [],
+      "sentiment": "Neutral",
+      "sentimentScore": 0,
+      "riskIndicators": [],
+      "suggestedNextSteps": [
+        "Deliver committed deliverable: \"Ready to sign if setup can happen this month.' Rep: 'I will send over our standa...\""
+      ],
+      "evidenceSnippets": [
+        {
+          "tag": "Commitment",
+          "text": "Direct representative or team deliverable",
+          "quote": "Ready to sign if setup can happen this month.' Rep: 'I will send over our standard implementation agreement.'",
+          "relevanceScore": 0.94
+        }
+      ]
+    },
+    "routing": {
+      "scoreBreakdown": {
+        "urgency": 0,
+        "customerRisk": 0,
+        "buyingIntent": 30,
+        "technicalBlocker": 0,
+        "deadlineProximity": 0,
+        "commitments": 20
+      },
+      "primaryQueue": "Positive Buying Signals",
+      "assignedQueues": [
+        "Positive Buying Signals",
+        "Follow-up Required",
+        "High Priority"
+      ],
+      "priority": "High",
+      "priorityScore": 50,
+      "routingScore": 50,
+      "matchedRules": [
+        {
+          "ruleId": "RULE-BUY-01",
+          "ruleName": "Commercial Progression & Buying Intent",
+          "queue": "Positive Buying Signals",
+          "weight": 30,
+          "snippet": "Direct purchasing intent or contract request"
+        },
+        {
+          "ruleId": "RULE-FOL-01",
+          "ruleName": "Explicit Team Commitments & Pending Deliverables",
+          "queue": "Follow-up Required",
+          "weight": 20,
+          "snippet": "Ready to sign if setup can happen this month.' Rep: 'I will send over our standa..."
+        }
+      ],
+      "ruleVersion": "v1.4.0-composite",
+      "explanation": "Assigned to [Positive Buying Signals] with High priority (Score: 50/100). Matched 2 rule(s): Commercial Progression & Buying Intent; Explicit Team Commitments & Pending Deliverables.",
+      "conflictDetected": false,
+      "conflictExplanation": "",
+      "evaluatedAt": "2026-10-22T13:12:26.705Z"
+    },
+    "manualOverrides": {
+      "isOverridden": false,
+      "priority": null,
+      "primaryQueue": null,
+      "sentiment": null,
+      "assignedSalesRep": null,
+      "nextAction": null,
+      "followUpStatus": null,
+      "accountAssociation": null,
+      "notes": null,
+      "owner": null,
+      "lastOverriddenAt": null,
+      "lastOverriddenBy": null,
+      "overrideReason": null
+    },
+    "_id": "6ada0bbaeab4a699f841a8be",
+    "externalId": "CONV-2024-NEW-5",
+    "source": "Gong.io",
+    "title": "Brand New Discovery Call - VentureTech 5",
+    "contactName": "Alice Walker 5",
+    "contactEmail": "awalker5@venturetech.co",
+    "company": "VentureTech Innovations 5",
+    "salesRep": "Sarah Chen",
+    "conversationType": "Discovery",
+    "timestamp": "2026-10-22T13:12:25.632Z",
+    "durationMinutes": 42,
+    "transcriptOrNotes": "Customer: 'We are expanding rapidly and need AI-powered inbox prioritization for our 50 reps. Ready to sign if setup can happen this month.' Rep: 'I will send over our standard implementation agreement.'",
+    "opportunityId": "OPP-NEW-5",
+    "sourceStatus": "Completed",
+    "sourceNextAction": "Send onboarding packet",
+    "sourceLastModified": "2026-10-22T13:12:26.702Z",
+    "normalizedHash": "9733d94a5db5a9f7e49cf14fd795b9e9faeebde98d38c2a1c7437a0261c3e970",
+    "importBatchId": "BATCH-1792674746556-DEF249",
+    "isAmbiguousMatch": false,
+    "ambiguousReason": "",
+    "effectivePriority": "High",
+    "effectivePrimaryQueue": "Positive Buying Signals",
+    "effectiveSentiment": "Neutral",
+    "effectiveSalesRep": "Sarah Chen",
+    "effectiveOwner": "Sarah Chen",
+    "effectiveFollowUpStatus": "Open",
+    "effectiveNextAction": "Ready to sign if setup can happen this month.' Rep: 'I will send over our standa...",
+    "reviewStatus": "Pending",
+    "createdAt": "2026-10-22T13:12:26.708Z",
+    "updatedAt": "2026-10-22T13:12:26.708Z",
+    "__v": 0
+  },
+  {
+    "analysis": {
+      "engine": "deterministic-heuristic-v1.4",
+      "analyzedAt": "2026-10-22T13:12:26.342Z",
+      "summary": "Technical Deep Dive session with RetailFlow Global. Core pain: Inquiry regarding optimizing RetailFlow Global workflow efficiency Evaluation proceeding routinely.",
+      "keyDiscussionPoints": [
+        "Core pain: Inquiry regarding optimizing RetailFlow Global workflow efficiency",
+        "Architecture/integration review: However, our CISO raised a mandatory blocker: we require Okta SSO SAML integration and verified SOC2 documentation before legal can sign the MSA.",
+        "Commercial parameters: Prospect: 'Our executive team loved the platform demo and the budget is approved for 250 enterprise seats.",
+        "Advancement criteria: Prospect: 'Our executive team loved the platform demo and the budget is approved for 250 enterprise seats."
+      ],
+      "customerPainPoints": [
+        "Inquiry regarding optimizing RetailFlow Global workflow efficiency"
+      ],
+      "buyingIntentSignals": [
+        "Observed intent: \"Prospect: 'Our executive team loved the platform demo and the budget is approved for 250 enterprise seats.\"",
+        "Observed intent: \"We are completely ready to sign off and roll out to our team in Q4.\""
+      ],
+      "objections": [],
+      "competitorMentions": [],
+      "pricingDiscussions": [
+        "Commercial detail: \"Prospect: 'Our executive team loved the platform demo and the budget is approved for 250 enterprise seats.\""
+      ],
+      "technicalQuestions": [
+        "Technical requirement/blocker: \"However, our CISO raised a mandatory blocker: we require Okta SSO SAML integration and verified SOC2 documentation before legal can sign the MSA.\"",
+        "Technical requirement/blocker: \"If we do not receive the SAML setup guide by Friday, the contract signature will be delayed.' Rep: 'I will send over our SOC2 Type II report and have our solutions engineer deliver the SSO technical specs tomorrow morning.'\""
+      ],
+      "commitmentsAndPromises": [
+        "Rep/Team commitment: \"If we do not receive the SAML setup guide by Friday, the contract signature will be delayed.' Rep: 'I will send over our SOC2 Type II report and have our solutions engineer deliver the SSO technical specs tomorrow morning.'\""
+      ],
+      "actionItems": [
+        {
+          "task": "If we do not receive the SAML setup guide by Friday, the contract signature will...",
+          "owner": "Sarah Chen",
+          "dueDate": "BY FRIDAY",
+          "evidenceSnippet": "If we do not receive the SAML setup guide by Friday, the contract signature will be delayed.' Rep: 'I will send over our SOC2 Type II report and have our solutions engineer deliver the SSO technical specs tomorrow morning.'"
+        }
+      ],
+      "deadlines": [
+        "BY FRIDAY",
+        "TOMORROW"
+      ],
+      "sentiment": "Neutral",
+      "sentimentScore": 0,
+      "riskIndicators": [
+        "Critical technical or security clearance requirement pending"
+      ],
+      "suggestedNextSteps": [
+        "Involve Solutions Engineer for technical security/SSO validation",
+        "Prepare customized commercial quotation with flexible terms",
+        "Deliver committed deliverable: \"If we do not receive the SAML setup guide by Friday, the contract signature will...\""
+      ],
+      "evidenceSnippets": [
+        {
+          "tag": "Buying Intent",
+          "text": "Customer explicitly indicated progression readiness",
+          "quote": "Prospect: 'Our executive team loved the platform demo and the budget is approved for 250 enterprise seats.",
+          "relevanceScore": 0.95
+        },
+        {
+          "tag": "Buying Intent",
+          "text": "Customer explicitly indicated progression readiness",
+          "quote": "We are completely ready to sign off and roll out to our team in Q4.",
+          "relevanceScore": 0.95
+        },
+        {
+          "tag": "Technical Scope",
+          "text": "Architecture or security prerequisite",
+          "quote": "However, our CISO raised a mandatory blocker: we require Okta SSO SAML integration and verified SOC2 documentation before legal can sign the MSA.",
+          "relevanceScore": 0.92
+        },
+        {
+          "tag": "Technical Scope",
+          "text": "Architecture or security prerequisite",
+          "quote": "If we do not receive the SAML setup guide by Friday, the contract signature will be delayed.' Rep: 'I will send over our SOC2 Type II report and have our solutions engineer deliver the SSO technical specs tomorrow morning.'",
+          "relevanceScore": 0.92
+        },
+        {
+          "tag": "Commercial Term",
+          "text": "Pricing, discount or contract discussion",
+          "quote": "Prospect: 'Our executive team loved the platform demo and the budget is approved for 250 enterprise seats.",
+          "relevanceScore": 0.9
+        },
+        {
+          "tag": "Commitment",
+          "text": "Direct representative or team deliverable",
+          "quote": "If we do not receive the SAML setup guide by Friday, the contract signature will be delayed.' Rep: 'I will send over our SOC2 Type II report and have our solutions engineer deliver the SSO technical specs tomorrow morning.'",
+          "relevanceScore": 0.94
+        }
+      ]
+    },
+    "routing": {
+      "scoreBreakdown": {
+        "urgency": 20,
+        "customerRisk": 0,
+        "buyingIntent": 30,
+        "technicalBlocker": 25,
+        "deadlineProximity": 25,
+        "commitments": 20
+      },
+      "primaryQueue": "Technical Questions",
+      "assignedQueues": [
+        "Positive Buying Signals",
+        "Technical Questions",
+        "Pricing and Negotiation",
+        "Follow-up Required",
+        "High Priority"
+      ],
+      "priority": "Urgent",
+      "priorityScore": 100,
+      "routingScore": 100,
+      "matchedRules": [
+        {
+          "ruleId": "RULE-BUY-01",
+          "ruleName": "Commercial Progression & Buying Intent",
+          "queue": "Positive Buying Signals",
+          "weight": 30,
+          "snippet": "Observed intent: \"Prospect: 'Our executive team loved the platform demo and the budget is approved for 250 enterprise seats.\""
+        },
+        {
+          "ruleId": "RULE-TECH-01",
+          "ruleName": "Architecture, Security & Integration Prerequisites",
+          "queue": "Technical Questions",
+          "weight": 25,
+          "snippet": "Technical requirement/blocker: \"However, our CISO raised a mandatory blocker: we require Okta SSO SAML integration and verified SOC2 documentation before legal can sign the MSA.\""
+        },
+        {
+          "ruleId": "RULE-PRICE-01",
+          "ruleName": "Commercial Terms & Discount Negotiation",
+          "queue": "Pricing and Negotiation",
+          "weight": 25,
+          "snippet": "Commercial detail: \"Prospect: 'Our executive team loved the platform demo and the budget is approved for 250 enterprise seats.\""
+        },
+        {
+          "ruleId": "RULE-FOL-01",
+          "ruleName": "Explicit Team Commitments & Pending Deliverables",
+          "queue": "Follow-up Required",
+          "weight": 20,
+          "snippet": "If we do not receive the SAML setup guide by Friday, the contract signature will..."
+        }
+      ],
+      "ruleVersion": "v1.4.0-composite",
+      "explanation": "Assigned to [Technical Questions] with Urgent priority (Score: 100/100). Matched 4 rule(s): Commercial Progression & Buying Intent; Architecture, Security & Integration Prerequisites; Commercial Terms & Discount Negotiation; Explicit Team Commitments & Pending Deliverables. Note: Competing signals: Customer showed strong buying intent but requires critical technical/integration validation (e.g. SSO/API). High revenue opportunity at risk if technical verification stalls.",
+      "conflictDetected": true,
+      "conflictExplanation": "Competing signals: Customer showed strong buying intent but requires critical technical/integration validation (e.g. SSO/API). High revenue opportunity at risk if technical verification stalls.",
+      "evaluatedAt": "2026-10-22T13:12:26.342Z"
+    },
+    "manualOverrides": {
+      "isOverridden": false,
+      "priority": null,
+      "primaryQueue": null,
+      "sentiment": null,
+      "assignedSalesRep": null,
+      "nextAction": null,
+      "followUpStatus": null,
+      "accountAssociation": null,
+      "notes": null,
+      "owner": null,
+      "lastOverriddenAt": null,
+      "lastOverriddenBy": null,
+      "overrideReason": null
+    },
+    "_id": "6ada0bbaeab4a699f841a837",
+    "externalId": "CONV-2024-041",
+    "source": "Zoom Phone",
+    "title": "Executive Architecture Review & Contract Readiness - RetailFlow Global",
+    "contactName": "Carlos Mendez",
+    "contactEmail": "cmendez@retailflow.com",
+    "company": "RetailFlow Global",
+    "salesRep": "Sarah Chen",
+    "conversationType": "Technical Deep Dive",
+    "timestamp": "2024-10-20T04:45:00.000Z",
+    "durationMinutes": 37,
+    "transcriptOrNotes": "Prospect: 'Our executive team loved the platform demo and the budget is approved for 250 enterprise seats. We are completely ready to sign off and roll out to our team in Q4. However, our CISO raised a mandatory blocker: we require Okta SSO SAML integration and verified SOC2 documentation before legal can sign the MSA. If we do not receive the SAML setup guide by Friday, the contract signature will be delayed.' Rep: 'I will send over our SOC2 Type II report and have our solutions engineer deliver the SSO technical specs tomorrow morning.'",
+    "opportunityId": "OPP-2024-1041",
+    "sourceStatus": "Completed",
+    "sourceNextAction": "Schedule technical validation session",
+    "sourceLastModified": "2026-10-22T13:12:26.339Z",
+    "normalizedHash": "7fe41865c31576675991e7257fff2aeb6c68934a538d399ba2cdd8ed1e678829",
+    "importBatchId": "BATCH-1792674745632-412A5F",
+    "isAmbiguousMatch": false,
+    "ambiguousReason": "",
+    "effectivePriority": "Urgent",
+    "effectivePrimaryQueue": "Technical Questions",
+    "effectiveSentiment": "Neutral",
+    "effectiveSalesRep": "Sarah Chen",
+    "effectiveOwner": "Sarah Chen",
+    "effectiveFollowUpStatus": "Open",
+    "effectiveNextAction": "If we do not receive the SAML setup guide by Friday, the contract signature will...",
+    "reviewStatus": "Pending",
+    "createdAt": "2026-10-22T13:12:26.347Z",
+    "updatedAt": "2026-10-22T13:12:26.347Z",
+    "__v": 0
+  },
+  {
+    "analysis": {
+      "engine": "deterministic-heuristic-v1.4",
+      "analyzedAt": "2026-10-22T13:12:26.294Z",
+      "summary": "Negotiation session with Optima Health Tech. Core pain: Inquiry regarding optimizing Optima Health Tech workflow efficiency Evaluation proceeding routinely.",
+      "keyDiscussionPoints": [
+        "Core pain: Inquiry regarding optimizing Optima Health Tech workflow efficiency",
+        "Commercial parameters: Prospect: 'We reviewed the quote for 100 seats."
+      ],
+      "customerPainPoints": [
+        "Inquiry regarding optimizing Optima Health Tech workflow efficiency"
+      ],
+      "buyingIntentSignals": [],
+      "objections": [
+        "Customer objection: \"While the features look promising, $85 per seat per month is too expensive and exceeds our allocated Q3 software budget.\""
+      ],
+      "competitorMentions": [],
+      "pricingDiscussions": [
+        "Commercial detail: \"Prospect: 'We reviewed the quote for 100 seats.\"",
+        "Commercial detail: \"While the features look promising, $85 per seat per month is too expensive and exceeds our allocated Q3 software budget.\"",
+        "Commercial detail: \"Our CFO is pushing back unless you can offer a 20% discount or allow quarterly billing instead of upfront annual contract payment.' Rep: 'I understand the budget constraints.\""
+      ],
+      "technicalQuestions": [],
+      "commitmentsAndPromises": [],
+      "actionItems": [],
+      "deadlines": [],
+      "sentiment": "Neutral",
+      "sentimentScore": 0,
+      "riskIndicators": [
+        "Unresolved pricing/commercial objections"
+      ],
+      "suggestedNextSteps": [
+        "Prepare customized commercial quotation with flexible terms"
+      ],
+      "evidenceSnippets": [
+        {
+          "tag": "Commercial Term",
+          "text": "Pricing, discount or contract discussion",
+          "quote": "Prospect: 'We reviewed the quote for 100 seats.",
+          "relevanceScore": 0.9
+        },
+        {
+          "tag": "Commercial Term",
+          "text": "Pricing, discount or contract discussion",
+          "quote": "While the features look promising, $85 per seat per month is too expensive and exceeds our allocated Q3 software budget.",
+          "relevanceScore": 0.9
+        },
+        {
+          "tag": "Commercial Term",
+          "text": "Pricing, discount or contract discussion",
+          "quote": "Our CFO is pushing back unless you can offer a 20% discount or allow quarterly billing instead of upfront annual contract payment.' Rep: 'I understand the budget constraints.",
+          "relevanceScore": 0.9
+        },
+        {
+          "tag": "Customer Objection",
+          "text": "Potential deal inhibitor or concern",
+          "quote": "While the features look promising, $85 per seat per month is too expensive and exceeds our allocated Q3 software budget.",
+          "relevanceScore": 0.89
+        }
+      ]
+    },
+    "routing": {
+      "scoreBreakdown": {
+        "urgency": 0,
+        "customerRisk": 0,
+        "buyingIntent": 0,
+        "technicalBlocker": 0,
+        "deadlineProximity": 0,
+        "commitments": 0
+      },
+      "primaryQueue": "Pricing and Negotiation",
+      "assignedQueues": [
+        "Pricing and Negotiation"
+      ],
+      "priority": "Low",
+      "priorityScore": 0,
+      "routingScore": 0,
+      "matchedRules": [
+        {
+          "ruleId": "RULE-PRICE-01",
+          "ruleName": "Commercial Terms & Discount Negotiation",
+          "queue": "Pricing and Negotiation",
+          "weight": 25,
+          "snippet": "Commercial detail: \"Prospect: 'We reviewed the quote for 100 seats.\""
+        }
+      ],
+      "ruleVersion": "v1.4.0-composite",
+      "explanation": "Assigned to [Pricing and Negotiation] with Low priority (Score: 0/100). Matched 1 rule(s): Commercial Terms & Discount Negotiation.",
+      "conflictDetected": false,
+      "conflictExplanation": "",
+      "evaluatedAt": "2026-10-22T13:12:26.294Z"
+    },
+    "manualOverrides": {
+      "isOverridden": false,
+      "priority": null,
+      "primaryQueue": null,
+      "sentiment": null,
+      "assignedSalesRep": null,
+      "nextAction": null,
+      "followUpStatus": null,
+      "accountAssociation": null,
+      "notes": null,
+      "owner": null,
+      "lastOverriddenAt": null,
+      "lastOverriddenBy": null,
+      "overrideReason": null
+    },
+    "_id": "6ada0bbaeab4a699f841a81f",
+    "externalId": "CONV-2024-036",
+    "source": "Zoom Phone",
+    "title": "Commercial Terms Review & Discount Pushback - Optima Health Tech",
+    "contactName": "Rachel Zhang",
+    "contactEmail": "rzhang@optimahealth.com",
+    "company": "Optima Health Tech",
+    "salesRep": "Sarah Chen",
+    "conversationType": "Negotiation",
+    "timestamp": "2024-10-17T21:45:00.000Z",
+    "durationMinutes": 47,
+    "transcriptOrNotes": "Prospect: 'We reviewed the quote for 100 seats. While the features look promising, $85 per seat per month is too expensive and exceeds our allocated Q3 software budget. Our CFO is pushing back unless you can offer a 20% discount or allow quarterly billing instead of upfront annual contract payment.' Rep: 'I understand the budget constraints. Let me check with our sales director about approving quarterly invoicing with a structured discount tier.'",
+    "opportunityId": "OPP-2024-1036",
+    "sourceStatus": "Completed",
+    "sourceNextAction": "Send proposal and follow-up materials",
+    "sourceLastModified": "2026-10-22T13:12:26.291Z",
+    "normalizedHash": "cb1364bd1eea76d040b0fc12ca2c01b205d7fca425f18284cf0d25c5c85806d0",
+    "importBatchId": "BATCH-1792674745632-412A5F",
+    "isAmbiguousMatch": false,
+    "ambiguousReason": "",
+    "effectivePriority": "Low",
+    "effectivePrimaryQueue": "Pricing and Negotiation",
+    "effectiveSentiment": "Neutral",
+    "effectiveSalesRep": "Sarah Chen",
+    "effectiveOwner": "Sarah Chen",
+    "effectiveFollowUpStatus": "None",
+    "effectiveNextAction": "Send proposal and follow-up materials",
+    "reviewStatus": "Pending",
+    "createdAt": "2026-10-22T13:12:26.298Z",
+    "updatedAt": "2026-10-22T13:12:26.298Z",
+    "__v": 0
+  },
+  {
+    "analysis": {
+      "engine": "deterministic-heuristic-v1.4",
+      "analyzedAt": "2026-10-22T13:12:26.233Z",
+      "summary": "Discovery session with CyberShield InfoSec. Core pain: Inquiry regarding optimizing CyberShield InfoSec workflow efficiency Evaluation proceeding routinely.",
+      "keyDiscussionPoints": [
+        "Core pain: Inquiry regarding optimizing CyberShield InfoSec workflow efficiency"
+      ],
+      "customerPainPoints": [
+        "Inquiry regarding optimizing CyberShield InfoSec workflow efficiency"
+      ],
+      "buyingIntentSignals": [],
+      "objections": [],
+      "competitorMentions": [],
+      "pricingDiscussions": [],
+      "technicalQuestions": [],
+      "commitmentsAndPromises": [],
+      "actionItems": [],
+      "deadlines": [
+        "NEXT WEEK"
+      ],
+      "sentiment": "Neutral",
+      "sentimentScore": 0,
+      "riskIndicators": [],
+      "suggestedNextSteps": [
+        "Send structured meeting summary and confirm next milestone"
+      ],
+      "evidenceSnippets": []
+    },
+    "routing": {
+      "scoreBreakdown": {
+        "urgency": 20,
+        "customerRisk": 0,
+        "buyingIntent": 0,
+        "technicalBlocker": 0,
+        "deadlineProximity": 25,
+        "commitments": 0
+      },
+      "primaryQueue": "Unassigned / Needs Review",
+      "assignedQueues": [
+        "Unassigned / Needs Review"
+      ],
+      "priority": "Medium",
+      "priorityScore": 45,
+      "routingScore": 45,
+      "matchedRules": [],
+      "ruleVersion": "v1.4.0-composite",
+      "explanation": "Assigned to [Unassigned / Needs Review] with Medium priority (Score: 45/100). Matched 0 rule(s): .",
+      "conflictDetected": false,
+      "conflictExplanation": "",
+      "evaluatedAt": "2026-10-22T13:12:26.233Z"
+    },
+    "manualOverrides": {
+      "isOverridden": false,
+      "priority": null,
+      "primaryQueue": null,
+      "sentiment": null,
+      "assignedSalesRep": null,
+      "nextAction": null,
+      "followUpStatus": null,
+      "accountAssociation": null,
+      "notes": null,
+      "owner": null,
+      "lastOverriddenAt": null,
+      "lastOverriddenBy": null,
+      "overrideReason": null
+    },
+    "_id": "6ada0bbaeab4a699f841a804",
+    "externalId": "CONV-2024-031",
+    "source": "Zoom Phone",
+    "title": "Initial Workflow Discovery & Solution Fit - CyberShield InfoSec",
+    "contactName": "Vikram Joshi",
+    "contactEmail": "vjoshi@cybershield.io",
+    "company": "CyberShield InfoSec",
+    "salesRep": "Sarah Chen",
+    "conversationType": "Discovery",
+    "timestamp": "2024-10-15T14:45:00.000Z",
+    "durationMinutes": 57,
+    "transcriptOrNotes": "Prospect: 'We currently manage 15 Account Executives and are looking for modern coaching intelligence tools to reduce ramp time.' Rep: 'Walked through conversational insights, automated scorecard tracking, and objection detection. Customer was receptive and agreed to a follow-up demonstration next week with team leads.'",
+    "opportunityId": "OPP-2024-1031",
+    "sourceStatus": "Completed",
+    "sourceNextAction": "Schedule technical validation session",
+    "sourceLastModified": "2026-10-22T13:12:26.229Z",
+    "normalizedHash": "7e604224d798479a2241b42afddb6c8933513d23707b53fd11497fd153731370",
+    "importBatchId": "BATCH-1792674745632-412A5F",
+    "isAmbiguousMatch": false,
+    "ambiguousReason": "",
+    "effectivePriority": "Medium",
+    "effectivePrimaryQueue": "Unassigned / Needs Review",
+    "effectiveSentiment": "Neutral",
+    "effectiveSalesRep": "Sarah Chen",
+    "effectiveOwner": "Sarah Chen",
+    "effectiveFollowUpStatus": "None",
+    "effectiveNextAction": "Schedule technical validation session",
+    "reviewStatus": "Pending",
+    "createdAt": "2026-10-22T13:12:26.234Z",
+    "updatedAt": "2026-10-22T13:12:26.234Z",
+    "__v": 0
+  },
+  {
+    "analysis": {
+      "engine": "deterministic-heuristic-v1.4",
+      "analyzedAt": "2026-10-22T13:12:26.148Z",
+      "summary": "Negotiation session with CloudScale Systems. Core pain: Inquiry regarding optimizing CloudScale Systems workflow efficiency Evaluation proceeding routinely.",
+      "keyDiscussionPoints": [
+        "Core pain: Inquiry regarding optimizing CloudScale Systems workflow efficiency",
+        "Commercial parameters: Prospect: 'We compared your solution against Gong and Clari, and your pricing tier works much better for our distributed sales force.",
+        "Advancement criteria: The pilot was successful across all 40 trial reps."
+      ],
+      "customerPainPoints": [
+        "Inquiry regarding optimizing CloudScale Systems workflow efficiency"
+      ],
+      "buyingIntentSignals": [
+        "Observed intent: \"The pilot was successful across all 40 trial reps.\"",
+        "Observed intent: \"Procurement process is initiated and we just need you to send over the contract and MSA by Monday.' Rep: 'Fantastic to hear.\""
+      ],
+      "objections": [],
+      "competitorMentions": [
+        "Gong (Snippet: \"Prospect: 'We compared your solution against Gong and Clari, and your pricing tier works much better for our distributed sales force.\")",
+        "Clari (Snippet: \"Prospect: 'We compared your solution against Gong and Clari, and your pricing tier works much better for our distributed sales force.\")"
+      ],
+      "pricingDiscussions": [
+        "Commercial detail: \"Prospect: 'We compared your solution against Gong and Clari, and your pricing tier works much better for our distributed sales force.\"",
+        "Commercial detail: \"I will prepare the formal contract with the agreed net 30 payment terms and email it to procurement today.'\""
+      ],
+      "technicalQuestions": [],
+      "commitmentsAndPromises": [],
+      "actionItems": [],
+      "deadlines": [
+        "BY MONDAY"
+      ],
+      "sentiment": "Neutral",
+      "sentimentScore": 0,
+      "riskIndicators": [
+        "Active competitor evaluation mentioned in transcript"
+      ],
+      "suggestedNextSteps": [
+        "Prepare customized commercial quotation with flexible terms"
+      ],
+      "evidenceSnippets": [
+        {
+          "tag": "Buying Intent",
+          "text": "Customer explicitly indicated progression readiness",
+          "quote": "The pilot was successful across all 40 trial reps.",
+          "relevanceScore": 0.95
+        },
+        {
+          "tag": "Buying Intent",
+          "text": "Customer explicitly indicated progression readiness",
+          "quote": "Procurement process is initiated and we just need you to send over the contract and MSA by Monday.' Rep: 'Fantastic to hear.",
+          "relevanceScore": 0.95
+        },
+        {
+          "tag": "Commercial Term",
+          "text": "Pricing, discount or contract discussion",
+          "quote": "Prospect: 'We compared your solution against Gong and Clari, and your pricing tier works much better for our distributed sales force.",
+          "relevanceScore": 0.9
+        },
+        {
+          "tag": "Commercial Term",
+          "text": "Pricing, discount or contract discussion",
+          "quote": "I will prepare the formal contract with the agreed net 30 payment terms and email it to procurement today.'",
+          "relevanceScore": 0.9
+        }
+      ]
+    },
+    "routing": {
+      "scoreBreakdown": {
+        "urgency": 20,
+        "customerRisk": 0,
+        "buyingIntent": 30,
+        "technicalBlocker": 0,
+        "deadlineProximity": 25,
+        "commitments": 0
+      },
+      "primaryQueue": "Positive Buying Signals",
+      "assignedQueues": [
+        "Positive Buying Signals",
+        "Pricing and Negotiation",
+        "High Priority"
+      ],
+      "priority": "Urgent",
+      "priorityScore": 75,
+      "routingScore": 75,
+      "matchedRules": [
+        {
+          "ruleId": "RULE-BUY-01",
+          "ruleName": "Commercial Progression & Buying Intent",
+          "queue": "Positive Buying Signals",
+          "weight": 30,
+          "snippet": "Observed intent: \"The pilot was successful across all 40 trial reps.\""
+        },
+        {
+          "ruleId": "RULE-PRICE-01",
+          "ruleName": "Commercial Terms & Discount Negotiation",
+          "queue": "Pricing and Negotiation",
+          "weight": 25,
+          "snippet": "Commercial detail: \"Prospect: 'We compared your solution against Gong and Clari, and your pricing tier works much better for our distributed sales force.\""
+        }
+      ],
+      "ruleVersion": "v1.4.0-composite",
+      "explanation": "Assigned to [Positive Buying Signals] with Urgent priority (Score: 75/100). Matched 2 rule(s): Commercial Progression & Buying Intent; Commercial Terms & Discount Negotiation.",
+      "conflictDetected": false,
+      "conflictExplanation": "",
+      "evaluatedAt": "2026-10-22T13:12:26.148Z"
+    },
+    "manualOverrides": {
+      "isOverridden": false,
+      "priority": null,
+      "primaryQueue": null,
+      "sentiment": null,
+      "assignedSalesRep": null,
+      "nextAction": null,
+      "followUpStatus": null,
+      "accountAssociation": null,
+      "notes": null,
+      "owner": null,
+      "lastOverriddenAt": null,
+      "lastOverriddenBy": null,
+      "overrideReason": null
+    },
+    "_id": "6ada0bbaeab4a699f841a7ea",
+    "externalId": "CONV-2024-026",
+    "source": "Zoom Phone",
+    "title": "Procurement Negotiation & MSA Finalization - CloudScale Systems",
+    "contactName": "Deepa Narang",
+    "contactEmail": "dnarang@cloudscale.io",
+    "company": "CloudScale Systems",
+    "salesRep": "Sarah Chen",
+    "conversationType": "Negotiation",
+    "timestamp": "2024-10-13T07:45:00.000Z",
+    "durationMinutes": 22,
+    "transcriptOrNotes": "Prospect: 'We compared your solution against Gong and Clari, and your pricing tier works much better for our distributed sales force. The pilot was successful across all 40 trial reps. Procurement process is initiated and we just need you to send over the contract and MSA by Monday.' Rep: 'Fantastic to hear. I will prepare the formal contract with the agreed net 30 payment terms and email it to procurement today.'",
+    "opportunityId": "OPP-2024-1026",
+    "sourceStatus": "Completed",
+    "sourceNextAction": "Send proposal and follow-up materials",
+    "sourceLastModified": "2026-10-22T13:12:26.143Z",
+    "normalizedHash": "676c375032f3183f3cd8a86cc49584e0a472f3d91b952bc983b34a2a28f2f46c",
+    "importBatchId": "BATCH-1792674745632-412A5F",
+    "isAmbiguousMatch": false,
+    "ambiguousReason": "",
+    "effectivePriority": "Urgent",
+    "effectivePrimaryQueue": "Positive Buying Signals",
+    "effectiveSentiment": "Neutral",
+    "effectiveSalesRep": "Sarah Chen",
+    "effectiveOwner": "Sarah Chen",
+    "effectiveFollowUpStatus": "None",
+    "effectiveNextAction": "Send proposal and follow-up materials",
+    "reviewStatus": "Pending",
+    "createdAt": "2026-10-22T13:12:26.152Z",
+    "updatedAt": "2026-10-22T13:12:26.152Z",
+    "__v": 0
+  },
+  {
+    "analysis": {
+      "engine": "deterministic-heuristic-v1.4",
+      "analyzedAt": "2026-10-22T13:12:26.083Z",
+      "summary": "Discovery session with DataMesh Solutions. Core pain: Prospect: 'Our biggest bottleneck right now is pipeline visibility and reps forgetting next steps after calls. Evaluation proceeding routinely.",
+      "keyDiscussionPoints": [
+        "Core pain: Prospect: 'Our biggest bottleneck right now is pipeline visibility and reps forgetting next steps after calls."
+      ],
+      "customerPainPoints": [
+        "Expressed pain: \"Prospect: 'Our biggest bottleneck right now is pipeline visibility and reps forgetting next steps after calls.\""
+      ],
+      "buyingIntentSignals": [],
+      "objections": [],
+      "competitorMentions": [
+        "Gong (Snippet: \"We want to see how your automated action item extractor handles our custom Gong recordings.' Rep: 'I will prepare a custom sandbox environment loaded with sample telephony data and promised to follow up with a live walkthrough session next Tuesday at 2 PM.'\")"
+      ],
+      "pricingDiscussions": [],
+      "technicalQuestions": [],
+      "commitmentsAndPromises": [
+        "Rep/Team commitment: \"We want to see how your automated action item extractor handles our custom Gong recordings.' Rep: 'I will prepare a custom sandbox environment loaded with sample telephony data and promised to follow up with a live walkthrough session next Tuesday at 2 PM.'\""
+      ],
+      "actionItems": [
+        {
+          "task": "We want to see how your automated action item extractor handles our custom Gong ...",
+          "owner": "Sarah Chen",
+          "dueDate": "Next Business Day",
+          "evidenceSnippet": "We want to see how your automated action item extractor handles our custom Gong recordings.' Rep: 'I will prepare a custom sandbox environment loaded with sample telephony data and promised to follow up with a live walkthrough session next Tuesday at 2 PM.'"
+        }
+      ],
+      "deadlines": [],
+      "sentiment": "Neutral",
+      "sentimentScore": 0,
+      "riskIndicators": [
+        "Active competitor evaluation mentioned in transcript"
+      ],
+      "suggestedNextSteps": [
+        "Deliver committed deliverable: \"We want to see how your automated action item extractor handles our custom Gong ...\""
+      ],
+      "evidenceSnippets": [
+        {
+          "tag": "Pain Point",
+          "text": "Operational friction identified",
+          "quote": "Prospect: 'Our biggest bottleneck right now is pipeline visibility and reps forgetting next steps after calls.",
+          "relevanceScore": 0.88
+        },
+        {
+          "tag": "Commitment",
+          "text": "Direct representative or team deliverable",
+          "quote": "We want to see how your automated action item extractor handles our custom Gong recordings.' Rep: 'I will prepare a custom sandbox environment loaded with sample telephony data and promised to follow up with a live walkthrough session next Tuesday at 2 PM.'",
+          "relevanceScore": 0.94
+        }
+      ]
+    },
+    "routing": {
+      "scoreBreakdown": {
+        "urgency": 0,
+        "customerRisk": 0,
+        "buyingIntent": 0,
+        "technicalBlocker": 0,
+        "deadlineProximity": 0,
+        "commitments": 20
+      },
+      "primaryQueue": "Follow-up Required",
+      "assignedQueues": [
+        "Follow-up Required"
+      ],
+      "priority": "Low",
+      "priorityScore": 20,
+      "routingScore": 20,
+      "matchedRules": [
+        {
+          "ruleId": "RULE-FOL-01",
+          "ruleName": "Explicit Team Commitments & Pending Deliverables",
+          "queue": "Follow-up Required",
+          "weight": 20,
+          "snippet": "We want to see how your automated action item extractor handles our custom Gong ..."
+        }
+      ],
+      "ruleVersion": "v1.4.0-composite",
+      "explanation": "Assigned to [Follow-up Required] with Low priority (Score: 20/100). Matched 1 rule(s): Explicit Team Commitments & Pending Deliverables.",
+      "conflictDetected": false,
+      "conflictExplanation": "",
+      "evaluatedAt": "2026-10-22T13:12:26.083Z"
+    },
+    "manualOverrides": {
+      "isOverridden": false,
+      "priority": null,
+      "primaryQueue": null,
+      "sentiment": null,
+      "assignedSalesRep": null,
+      "nextAction": null,
+      "followUpStatus": null,
+      "accountAssociation": null,
+      "notes": null,
+      "owner": null,
+      "lastOverriddenAt": null,
+      "lastOverriddenBy": null,
+      "overrideReason": null
+    },
+    "_id": "6ada0bbaeab4a699f841a7cf",
+    "externalId": "CONV-2024-021",
+    "source": "Zoom Phone",
+    "title": "Mid-Market Discovery & Custom Sandbox Request - DataMesh Solutions",
+    "contactName": "Liam O’Connor",
+    "contactEmail": "liam@datamesh.co",
+    "company": "DataMesh Solutions",
+    "salesRep": "Sarah Chen",
+    "conversationType": "Discovery",
+    "timestamp": "2024-10-11T00:45:00.000Z",
+    "durationMinutes": 32,
+    "transcriptOrNotes": "Prospect: 'Our biggest bottleneck right now is pipeline visibility and reps forgetting next steps after calls. We want to see how your automated action item extractor handles our custom Gong recordings.' Rep: 'I will prepare a custom sandbox environment loaded with sample telephony data and promised to follow up with a live walkthrough session next Tuesday at 2 PM.'",
+    "opportunityId": "OPP-2024-1021",
+    "sourceStatus": "Scheduled",
+    "sourceNextAction": "Schedule technical validation session",
+    "sourceLastModified": "2026-10-22T13:12:26.078Z",
+    "normalizedHash": "7d867c3bc6281eb130c34c70d1ea3fe61c84af7112032530f64f7774fe873888",
+    "importBatchId": "BATCH-1792674745632-412A5F",
+    "isAmbiguousMatch": false,
+    "ambiguousReason": "",
+    "effectivePriority": "Low",
+    "effectivePrimaryQueue": "Follow-up Required",
+    "effectiveSentiment": "Neutral",
+    "effectiveSalesRep": "Sarah Chen",
+    "effectiveOwner": "Sarah Chen",
+    "effectiveFollowUpStatus": "Open",
+    "effectiveNextAction": "We want to see how your automated action item extractor handles our custom Gong ...",
+    "reviewStatus": "Pending",
+    "createdAt": "2026-10-22T13:12:26.086Z",
+    "updatedAt": "2026-10-22T13:12:26.086Z",
+    "__v": 0
+  },
+  {
+    "analysis": {
+      "engine": "deterministic-heuristic-v1.4",
+      "analyzedAt": "2026-10-22T13:12:26.630Z",
+      "summary": "QBR session with HealthPulse Labs. Core pain: Inquiry regarding optimizing HealthPulse Labs workflow efficiency Customer expressed positive reception.",
+      "keyDiscussionPoints": [
+        "Core pain: Inquiry regarding optimizing HealthPulse Labs workflow efficiency",
+        "Commercial parameters: I will send over the expansion addendum with prorated billing for your remaining contract term.' UPDATE: Customer confirmed budget sign-off and requested updated payment terms Net 45.",
+        "Advancement criteria: We are ready to move forward with adding another 75 seats for our EMEA business development team.' Rep: 'Thrilled with these results."
+      ],
+      "customerPainPoints": [
+        "Inquiry regarding optimizing HealthPulse Labs workflow efficiency"
+      ],
+      "buyingIntentSignals": [
+        "Observed intent: \"We are ready to move forward with adding another 75 seats for our EMEA business development team.' Rep: 'Thrilled with these results.\""
+      ],
+      "objections": [],
+      "competitorMentions": [],
+      "pricingDiscussions": [
+        "Commercial detail: \"I will send over the expansion addendum with prorated billing for your remaining contract term.' UPDATE: Customer confirmed budget sign-off and requested updated payment terms Net 45.\""
+      ],
+      "technicalQuestions": [],
+      "commitmentsAndPromises": [
+        "Rep/Team commitment: \"I will send over the expansion addendum with prorated billing for your remaining contract term.' UPDATE: Customer confirmed budget sign-off and requested updated payment terms Net 45.\""
+      ],
+      "actionItems": [
+        {
+          "task": "I will send over the expansion addendum with prorated billing for your remaining...",
+          "owner": "Sarah Chen",
+          "dueDate": "Next Business Day",
+          "evidenceSnippet": "I will send over the expansion addendum with prorated billing for your remaining contract term.' UPDATE: Customer confirmed budget sign-off and requested updated payment terms Net 45."
+        }
+      ],
+      "deadlines": [],
+      "sentiment": "Positive",
+      "sentimentScore": 0.5,
+      "riskIndicators": [],
+      "suggestedNextSteps": [
+        "Prepare customized commercial quotation with flexible terms",
+        "Deliver committed deliverable: \"I will send over the expansion addendum with prorated billing for your remaining...\""
+      ],
+      "evidenceSnippets": [
+        {
+          "tag": "Buying Intent",
+          "text": "Customer explicitly indicated progression readiness",
+          "quote": "We are ready to move forward with adding another 75 seats for our EMEA business development team.' Rep: 'Thrilled with these results.",
+          "relevanceScore": 0.95
+        },
+        {
+          "tag": "Commercial Term",
+          "text": "Pricing, discount or contract discussion",
+          "quote": "I will send over the expansion addendum with prorated billing for your remaining contract term.' UPDATE: Customer confirmed budget sign-off and requested updated payment terms Net 45.",
+          "relevanceScore": 0.9
+        },
+        {
+          "tag": "Commitment",
+          "text": "Direct representative or team deliverable",
+          "quote": "I will send over the expansion addendum with prorated billing for your remaining contract term.' UPDATE: Customer confirmed budget sign-off and requested updated payment terms Net 45.",
+          "relevanceScore": 0.94
+        }
+      ]
+    },
+    "routing": {
+      "scoreBreakdown": {
+        "urgency": 0,
+        "customerRisk": 0,
+        "buyingIntent": 30,
+        "technicalBlocker": 0,
+        "deadlineProximity": 0,
+        "commitments": 20
+      },
+      "primaryQueue": "Positive Buying Signals",
+      "assignedQueues": [
+        "Positive Buying Signals",
+        "Pricing and Negotiation",
+        "Follow-up Required",
+        "High Priority"
+      ],
+      "priority": "High",
+      "priorityScore": 50,
+      "routingScore": 50,
+      "matchedRules": [
+        {
+          "ruleId": "RULE-BUY-01",
+          "ruleName": "Commercial Progression & Buying Intent",
+          "queue": "Positive Buying Signals",
+          "weight": 30,
+          "snippet": "Observed intent: \"We are ready to move forward with adding another 75 seats for our EMEA business development team.' Rep: 'Thrilled with these results.\""
+        },
+        {
+          "ruleId": "RULE-PRICE-01",
+          "ruleName": "Commercial Terms & Discount Negotiation",
+          "queue": "Pricing and Negotiation",
+          "weight": 25,
+          "snippet": "Commercial detail: \"I will send over the expansion addendum with prorated billing for your remaining contract term.' UPDATE: Customer confirmed budget sign-off and requested updated payment terms Net 45.\""
+        },
+        {
+          "ruleId": "RULE-FOL-01",
+          "ruleName": "Explicit Team Commitments & Pending Deliverables",
+          "queue": "Follow-up Required",
+          "weight": 20,
+          "snippet": "I will send over the expansion addendum with prorated billing for your remaining..."
+        }
+      ],
+      "ruleVersion": "v1.4.0-composite",
+      "explanation": "Assigned to [Positive Buying Signals] with High priority (Score: 50/100). Matched 3 rule(s): Commercial Progression & Buying Intent; Commercial Terms & Discount Negotiation; Explicit Team Commitments & Pending Deliverables.",
+      "conflictDetected": false,
+      "conflictExplanation": "",
+      "evaluatedAt": "2026-10-22T13:12:26.630Z"
+    },
+    "manualOverrides": {
+      "isOverridden": false,
+      "priority": null,
+      "primaryQueue": null,
+      "sentiment": null,
+      "assignedSalesRep": null,
+      "nextAction": null,
+      "followUpStatus": null,
+      "accountAssociation": null,
+      "notes": null,
+      "owner": null,
+      "lastOverriddenAt": null,
+      "lastOverriddenBy": null,
+      "overrideReason": null
+    },
+    "_id": "6ada0bb9eab4a699f841a7b3",
+    "externalId": "CONV-2024-016",
+    "source": "Zoom Phone",
+    "title": "Quarterly Business Review & Seat Expansion - HealthPulse Labs (Updated Commercial Terms)",
+    "contactName": "Dr. Evelyn Reed",
+    "contactEmail": "ereed@healthpulse.org",
+    "company": "HealthPulse Labs",
+    "salesRep": "Sarah Chen",
+    "conversationType": "QBR",
+    "timestamp": "2024-10-08T17:45:00.000Z",
+    "durationMinutes": 57,
+    "transcriptOrNotes": "Customer: 'The platform adoption has been impressive over the past quarter. Win rates increased by 14% across the pilot team. We are ready to move forward with adding another 75 seats for our EMEA business development team.' Rep: 'Thrilled with these results. I will send over the expansion addendum with prorated billing for your remaining contract term.' UPDATE: Customer confirmed budget sign-off and requested updated payment terms Net 45.",
+    "opportunityId": "OPP-2024-1016",
+    "sourceStatus": "Completed",
+    "sourceNextAction": "Execute updated agreement by Friday",
+    "sourceLastModified": "2026-10-22T13:12:25.991Z",
+    "normalizedHash": "e98e7716e5ea1c1efbd5921be8fbbbe7280e5727d511e2005edafc8b6ef22364",
+    "importBatchId": "BATCH-1792674746556-DEF249",
+    "isAmbiguousMatch": false,
+    "ambiguousReason": "",
+    "effectivePriority": "High",
+    "effectivePrimaryQueue": "Positive Buying Signals",
+    "effectiveSentiment": "Positive",
+    "effectiveSalesRep": "Sarah Chen",
+    "effectiveOwner": "Sarah Chen",
+    "effectiveFollowUpStatus": "Open",
+    "effectiveNextAction": "I will send over the expansion addendum with prorated billing for your remaining...",
+    "reviewStatus": "Pending",
+    "createdAt": "2026-10-22T13:12:26.001Z",
+    "updatedAt": "2026-10-22T13:12:26.632Z",
+    "__v": 0
+  },
+  {
+    "analysis": {
+      "engine": "deterministic-heuristic-v1.4",
+      "analyzedAt": "2026-10-22T13:12:26.591Z",
+      "summary": "Escalation session with Apex Media Group. Core pain: Our reps are frustrated with the manual process and data inaccuracies. Customer highlighted active concerns requiring intervention.",
+      "keyDiscussionPoints": [
+        "Core pain: Our reps are frustrated with the manual process and data inaccuracies.",
+        "Architecture/integration review: Customer: 'We have been experiencing continuous sync latency with our Salesforce integration for three weeks.",
+        "Commercial parameters: I am escalating this directly to our VP of Engineering and promise to follow up with an update within 24 hours.' UPDATE: Customer confirmed budget sign-off and requested updated payment terms Net 45."
+      ],
+      "customerPainPoints": [
+        "Expressed pain: \"Our reps are frustrated with the manual process and data inaccuracies.\""
+      ],
+      "buyingIntentSignals": [],
+      "objections": [],
+      "competitorMentions": [
+        "Salesforce (Snippet: \"Customer: 'We have been experiencing continuous sync latency with our Salesforce integration for three weeks.\")",
+        "Outreach (Snippet: \"If this issue is not resolved by engineering by Friday, we will cancel our subscription and explore Outreach.\")"
+      ],
+      "pricingDiscussions": [
+        "Commercial detail: \"I am escalating this directly to our VP of Engineering and promise to follow up with an update within 24 hours.' UPDATE: Customer confirmed budget sign-off and requested updated payment terms Net 45.\""
+      ],
+      "technicalQuestions": [
+        "Technical requirement/blocker: \"Customer: 'We have been experiencing continuous sync latency with our Salesforce integration for three weeks.\""
+      ],
+      "commitmentsAndPromises": [
+        "Rep/Team commitment: \"I am escalating this directly to our VP of Engineering and promise to follow up with an update within 24 hours.' UPDATE: Customer confirmed budget sign-off and requested updated payment terms Net 45.\""
+      ],
+      "actionItems": [
+        {
+          "task": "I am escalating this directly to our VP of Engineering and promise to follow up ...",
+          "owner": "Sarah Chen",
+          "dueDate": "BY FRIDAY",
+          "evidenceSnippet": "I am escalating this directly to our VP of Engineering and promise to follow up with an update within 24 hours.' UPDATE: Customer confirmed budget sign-off and requested updated payment terms Net 45."
+        }
+      ],
+      "deadlines": [
+        "BY FRIDAY"
+      ],
+      "sentiment": "Negative",
+      "sentimentScore": -1,
+      "riskIndicators": [
+        "Elevated customer dissatisfaction language detected",
+        "Critical technical or security clearance requirement pending",
+        "Active competitor evaluation mentioned in transcript"
+      ],
+      "suggestedNextSteps": [
+        "Involve Solutions Engineer for technical security/SSO validation",
+        "Prepare customized commercial quotation with flexible terms",
+        "Deliver committed deliverable: \"I am escalating this directly to our VP of Engineering and promise to follow up ...\""
+      ],
+      "evidenceSnippets": [
+        {
+          "tag": "Pain Point",
+          "text": "Operational friction identified",
+          "quote": "Our reps are frustrated with the manual process and data inaccuracies.",
+          "relevanceScore": 0.88
+        },
+        {
+          "tag": "Technical Scope",
+          "text": "Architecture or security prerequisite",
+          "quote": "Customer: 'We have been experiencing continuous sync latency with our Salesforce integration for three weeks.",
+          "relevanceScore": 0.92
+        },
+        {
+          "tag": "Commercial Term",
+          "text": "Pricing, discount or contract discussion",
+          "quote": "I am escalating this directly to our VP of Engineering and promise to follow up with an update within 24 hours.' UPDATE: Customer confirmed budget sign-off and requested updated payment terms Net 45.",
+          "relevanceScore": 0.9
+        },
+        {
+          "tag": "Commitment",
+          "text": "Direct representative or team deliverable",
+          "quote": "I am escalating this directly to our VP of Engineering and promise to follow up with an update within 24 hours.' UPDATE: Customer confirmed budget sign-off and requested updated payment terms Net 45.",
+          "relevanceScore": 0.94
+        }
+      ]
+    },
+    "routing": {
+      "scoreBreakdown": {
+        "urgency": 20,
+        "customerRisk": 35,
+        "buyingIntent": 0,
+        "technicalBlocker": 25,
+        "deadlineProximity": 25,
+        "commitments": 20
+      },
+      "primaryQueue": "Customer Risk",
+      "assignedQueues": [
+        "Customer Risk",
+        "Technical Questions",
+        "Pricing and Negotiation",
+        "Follow-up Required",
+        "High Priority"
+      ],
+      "priority": "Urgent",
+      "priorityScore": 100,
+      "routingScore": 100,
+      "matchedRules": [
+        {
+          "ruleId": "RULE-RISK-01",
+          "ruleName": "Customer Dissatisfaction & Churn Risk",
+          "queue": "Customer Risk",
+          "weight": 35,
+          "snippet": "Customer dissatisfaction language detected in transcript"
+        },
+        {
+          "ruleId": "RULE-TECH-01",
+          "ruleName": "Architecture, Security & Integration Prerequisites",
+          "queue": "Technical Questions",
+          "weight": 25,
+          "snippet": "Technical requirement/blocker: \"Customer: 'We have been experiencing continuous sync latency with our Salesforce integration for three weeks.\""
+        },
+        {
+          "ruleId": "RULE-PRICE-01",
+          "ruleName": "Commercial Terms & Discount Negotiation",
+          "queue": "Pricing and Negotiation",
+          "weight": 25,
+          "snippet": "Commercial detail: \"I am escalating this directly to our VP of Engineering and promise to follow up with an update within 24 hours.' UPDATE: Customer confirmed budget sign-off and requested updated payment terms Net 45.\""
+        },
+        {
+          "ruleId": "RULE-FOL-01",
+          "ruleName": "Explicit Team Commitments & Pending Deliverables",
+          "queue": "Follow-up Required",
+          "weight": 20,
+          "snippet": "I am escalating this directly to our VP of Engineering and promise to follow up ..."
+        }
+      ],
+      "ruleVersion": "v1.4.0-composite",
+      "explanation": "Assigned to [Customer Risk] with Urgent priority (Score: 100/100). Matched 4 rule(s): Customer Dissatisfaction & Churn Risk; Architecture, Security & Integration Prerequisites; Commercial Terms & Discount Negotiation; Explicit Team Commitments & Pending Deliverables.",
+      "conflictDetected": false,
+      "conflictExplanation": "",
+      "evaluatedAt": "2026-10-22T13:12:26.591Z"
+    },
+    "manualOverrides": {
+      "isOverridden": true,
+      "priority": "Urgent",
+      "primaryQueue": "Customer Risk",
+      "sentiment": null,
+      "assignedSalesRep": null,
+      "nextAction": null,
+      "followUpStatus": null,
+      "accountAssociation": null,
+      "notes": null,
+      "owner": "Marcus Vance (Manager Assigned)",
+      "lastOverriddenAt": null,
+      "lastOverriddenBy": null,
+      "overrideReason": "Executive escalation override"
+    },
+    "_id": "6ada0bb9eab4a699f841a79a",
+    "externalId": "CONV-2024-011",
+    "source": "Zoom Phone",
+    "title": "Critical Support Escalation & Renewal Risk - Apex Media Group (Updated Commercial Terms)",
+    "contactName": "Harrison Ford",
+    "contactEmail": "hford@apexmedia.com",
+    "company": "Apex Media Group",
+    "salesRep": "Sarah Chen",
+    "conversationType": "Escalation",
+    "timestamp": "2024-10-06T10:45:00.000Z",
+    "durationMinutes": 67,
+    "transcriptOrNotes": "Customer: 'We have been experiencing continuous sync latency with our Salesforce integration for three weeks. Our reps are frustrated with the manual process and data inaccuracies. If this issue is not resolved by engineering by Friday, we will cancel our subscription and explore Outreach. This has been a terrible experience for our team.' Rep: 'I sincerely apologize for the frustration. I am escalating this directly to our VP of Engineering and promise to follow up with an update within 24 hours.' UPDATE: Customer confirmed budget sign-off and requested updated payment terms Net 45.",
+    "opportunityId": "OPP-2024-1011",
+    "sourceStatus": "Completed",
+    "sourceNextAction": "Execute updated agreement by Friday",
+    "sourceLastModified": "2026-10-22T13:12:25.912Z",
+    "normalizedHash": "e6f765902e56acc972726bf202c425ab68f93d8471a59353e73025c29abffe87",
+    "importBatchId": "BATCH-1792674746556-DEF249",
+    "isAmbiguousMatch": false,
+    "ambiguousReason": "",
+    "effectivePriority": "Urgent",
+    "effectivePrimaryQueue": "Customer Risk",
+    "effectiveSentiment": "Negative",
+    "effectiveSalesRep": "Sarah Chen",
+    "effectiveOwner": "Marcus Vance (Manager Assigned)",
+    "effectiveFollowUpStatus": "Open",
+    "effectiveNextAction": "I am escalating this directly to our VP of Engineering and promise to follow up ...",
+    "reviewStatus": "Pending",
+    "createdAt": "2026-10-22T13:12:25.922Z",
+    "updatedAt": "2026-10-22T13:12:26.596Z",
+    "__v": 0
+  },
+  {
+    "analysis": {
+      "engine": "deterministic-heuristic-v1.4",
+      "analyzedAt": "2026-10-22T13:12:25.792Z",
+      "summary": "Technical Deep Dive session with Nexus Logistics. Core pain: Inquiry regarding optimizing Nexus Logistics workflow efficiency Evaluation proceeding routinely.",
+      "keyDiscussionPoints": [
+        "Core pain: Inquiry regarding optimizing Nexus Logistics workflow efficiency",
+        "Architecture/integration review: Prospect: 'As a healthcare organization, HIPAA compliance and data residency in AWS US-East are non-negotiable."
+      ],
+      "customerPainPoints": [
+        "Inquiry regarding optimizing Nexus Logistics workflow efficiency"
+      ],
+      "buyingIntentSignals": [],
+      "objections": [],
+      "competitorMentions": [],
+      "pricingDiscussions": [],
+      "technicalQuestions": [
+        "Technical requirement/blocker: \"Prospect: 'As a healthcare organization, HIPAA compliance and data residency in AWS US-East are non-negotiable.\"",
+        "Technical requirement/blocker: \"What is your API rate limit for bulk webhooks, and how do you handle role-based access control?' Rep: 'We provide full HIPAA BAA agreements, dedicated VPC data isolation, and 10,000 API requests per minute.\""
+      ],
+      "commitmentsAndPromises": [],
+      "actionItems": [],
+      "deadlines": [],
+      "sentiment": "Neutral",
+      "sentimentScore": 0,
+      "riskIndicators": [
+        "Critical technical or security clearance requirement pending"
+      ],
+      "suggestedNextSteps": [
+        "Involve Solutions Engineer for technical security/SSO validation"
+      ],
+      "evidenceSnippets": [
+        {
+          "tag": "Technical Scope",
+          "text": "Architecture or security prerequisite",
+          "quote": "Prospect: 'As a healthcare organization, HIPAA compliance and data residency in AWS US-East are non-negotiable.",
+          "relevanceScore": 0.92
+        },
+        {
+          "tag": "Technical Scope",
+          "text": "Architecture or security prerequisite",
+          "quote": "What is your API rate limit for bulk webhooks, and how do you handle role-based access control?' Rep: 'We provide full HIPAA BAA agreements, dedicated VPC data isolation, and 10,000 API requests per minute.",
+          "relevanceScore": 0.92
+        }
+      ]
+    },
+    "routing": {
+      "scoreBreakdown": {
+        "urgency": 0,
+        "customerRisk": 0,
+        "buyingIntent": 0,
+        "technicalBlocker": 25,
+        "deadlineProximity": 0,
+        "commitments": 0
+      },
+      "primaryQueue": "Technical Questions",
+      "assignedQueues": [
+        "Technical Questions"
+      ],
+      "priority": "Medium",
+      "priorityScore": 25,
+      "routingScore": 25,
+      "matchedRules": [
+        {
+          "ruleId": "RULE-TECH-01",
+          "ruleName": "Architecture, Security & Integration Prerequisites",
+          "queue": "Technical Questions",
+          "weight": 25,
+          "snippet": "Technical requirement/blocker: \"Prospect: 'As a healthcare organization, HIPAA compliance and data residency in AWS US-East are non-negotiable.\""
+        }
+      ],
+      "ruleVersion": "v1.4.0-composite",
+      "explanation": "Assigned to [Technical Questions] with Medium priority (Score: 25/100). Matched 1 rule(s): Architecture, Security & Integration Prerequisites.",
+      "conflictDetected": false,
+      "conflictExplanation": "",
+      "evaluatedAt": "2026-10-22T13:12:25.792Z"
+    },
+    "manualOverrides": {
+      "isOverridden": false,
+      "priority": null,
+      "primaryQueue": null,
+      "sentiment": null,
+      "assignedSalesRep": null,
+      "nextAction": null,
+      "followUpStatus": null,
+      "accountAssociation": null,
+      "notes": null,
+      "owner": null,
+      "lastOverriddenAt": null,
+      "lastOverriddenBy": null,
+      "overrideReason": null
+    },
+    "_id": "6ada0bb9eab4a699f841a780",
+    "externalId": "CONV-2024-006",
+    "source": "Zoom Phone",
+    "title": "Enterprise Infosec Compliance & Data Residency - Nexus Logistics",
+    "contactName": "Amanda Torres",
+    "contactEmail": "atorres@nexuslog.net",
+    "company": "Nexus Logistics",
+    "salesRep": "Sarah Chen",
+    "conversationType": "Technical Deep Dive",
+    "timestamp": "2024-10-04T03:45:00.000Z",
+    "durationMinutes": 62,
+    "transcriptOrNotes": "Prospect: 'As a healthcare organization, HIPAA compliance and data residency in AWS US-East are non-negotiable. What is your API rate limit for bulk webhooks, and how do you handle role-based access control?' Rep: 'We provide full HIPAA BAA agreements, dedicated VPC data isolation, and 10,000 API requests per minute. I will share our comprehensive infosec whitepaper by end of day.'",
+    "opportunityId": "OPP-2024-1006",
+    "sourceStatus": "Completed",
+    "sourceNextAction": "Send proposal and follow-up materials",
+    "sourceLastModified": "2026-10-22T13:12:25.787Z",
+    "normalizedHash": "cb9d4eec71e7e175cdbafc6cc78f6661f9770baec3784a02c389591f5ec55f9f",
+    "importBatchId": "BATCH-1792674745632-412A5F",
+    "isAmbiguousMatch": false,
+    "ambiguousReason": "",
+    "effectivePriority": "Medium",
+    "effectivePrimaryQueue": "Technical Questions",
+    "effectiveSentiment": "Neutral",
+    "effectiveSalesRep": "Sarah Chen",
+    "effectiveOwner": "Sarah Chen",
+    "effectiveFollowUpStatus": "None",
+    "effectiveNextAction": "Send proposal and follow-up materials",
+    "reviewStatus": "Pending",
+    "createdAt": "2026-10-22T13:12:25.797Z",
+    "updatedAt": "2026-10-22T13:12:25.797Z",
+    "__v": 0
+  },
+  {
+    "analysis": {
+      "engine": "deterministic-heuristic-v1.4",
+      "analyzedAt": "2026-10-22T13:12:25.649Z",
+      "summary": "Technical Deep Dive session with Acme Enterprise. Core pain: Inquiry regarding optimizing Acme Enterprise workflow efficiency Evaluation proceeding routinely.",
+      "keyDiscussionPoints": [
+        "Core pain: Inquiry regarding optimizing Acme Enterprise workflow efficiency",
+        "Architecture/integration review: However, our CISO raised a mandatory blocker: we require Okta SSO SAML integration and verified SOC2 documentation before legal can sign the MSA.",
+        "Commercial parameters: Prospect: 'Our executive team loved the platform demo and the budget is approved for 250 enterprise seats.",
+        "Advancement criteria: Prospect: 'Our executive team loved the platform demo and the budget is approved for 250 enterprise seats."
+      ],
+      "customerPainPoints": [
+        "Inquiry regarding optimizing Acme Enterprise workflow efficiency"
+      ],
+      "buyingIntentSignals": [
+        "Observed intent: \"Prospect: 'Our executive team loved the platform demo and the budget is approved for 250 enterprise seats.\"",
+        "Observed intent: \"We are completely ready to sign off and roll out to our team in Q4.\""
+      ],
+      "objections": [],
+      "competitorMentions": [],
+      "pricingDiscussions": [
+        "Commercial detail: \"Prospect: 'Our executive team loved the platform demo and the budget is approved for 250 enterprise seats.\""
+      ],
+      "technicalQuestions": [
+        "Technical requirement/blocker: \"However, our CISO raised a mandatory blocker: we require Okta SSO SAML integration and verified SOC2 documentation before legal can sign the MSA.\"",
+        "Technical requirement/blocker: \"If we do not receive the SAML setup guide by Friday, the contract signature will be delayed.' Rep: 'I will send over our SOC2 Type II report and have our solutions engineer deliver the SSO technical specs tomorrow morning.'\""
+      ],
+      "commitmentsAndPromises": [
+        "Rep/Team commitment: \"If we do not receive the SAML setup guide by Friday, the contract signature will be delayed.' Rep: 'I will send over our SOC2 Type II report and have our solutions engineer deliver the SSO technical specs tomorrow morning.'\""
+      ],
+      "actionItems": [
+        {
+          "task": "If we do not receive the SAML setup guide by Friday, the contract signature will...",
+          "owner": "Sarah Chen",
+          "dueDate": "BY FRIDAY",
+          "evidenceSnippet": "If we do not receive the SAML setup guide by Friday, the contract signature will be delayed.' Rep: 'I will send over our SOC2 Type II report and have our solutions engineer deliver the SSO technical specs tomorrow morning.'"
+        }
+      ],
+      "deadlines": [
+        "BY FRIDAY",
+        "TOMORROW"
+      ],
+      "sentiment": "Neutral",
+      "sentimentScore": 0,
+      "riskIndicators": [
+        "Critical technical or security clearance requirement pending"
+      ],
+      "suggestedNextSteps": [
+        "Involve Solutions Engineer for technical security/SSO validation",
+        "Prepare customized commercial quotation with flexible terms",
+        "Deliver committed deliverable: \"If we do not receive the SAML setup guide by Friday, the contract signature will...\""
+      ],
+      "evidenceSnippets": [
+        {
+          "tag": "Buying Intent",
+          "text": "Customer explicitly indicated progression readiness",
+          "quote": "Prospect: 'Our executive team loved the platform demo and the budget is approved for 250 enterprise seats.",
+          "relevanceScore": 0.95
+        },
+        {
+          "tag": "Buying Intent",
+          "text": "Customer explicitly indicated progression readiness",
+          "quote": "We are completely ready to sign off and roll out to our team in Q4.",
+          "relevanceScore": 0.95
+        },
+        {
+          "tag": "Technical Scope",
+          "text": "Architecture or security prerequisite",
+          "quote": "However, our CISO raised a mandatory blocker: we require Okta SSO SAML integration and verified SOC2 documentation before legal can sign the MSA.",
+          "relevanceScore": 0.92
+        },
+        {
+          "tag": "Technical Scope",
+          "text": "Architecture or security prerequisite",
+          "quote": "If we do not receive the SAML setup guide by Friday, the contract signature will be delayed.' Rep: 'I will send over our SOC2 Type II report and have our solutions engineer deliver the SSO technical specs tomorrow morning.'",
+          "relevanceScore": 0.92
+        },
+        {
+          "tag": "Commercial Term",
+          "text": "Pricing, discount or contract discussion",
+          "quote": "Prospect: 'Our executive team loved the platform demo and the budget is approved for 250 enterprise seats.",
+          "relevanceScore": 0.9
+        },
+        {
+          "tag": "Commitment",
+          "text": "Direct representative or team deliverable",
+          "quote": "If we do not receive the SAML setup guide by Friday, the contract signature will be delayed.' Rep: 'I will send over our SOC2 Type II report and have our solutions engineer deliver the SSO technical specs tomorrow morning.'",
+          "relevanceScore": 0.94
+        }
+      ]
+    },
+    "routing": {
+      "scoreBreakdown": {
+        "urgency": 20,
+        "customerRisk": 0,
+        "buyingIntent": 30,
+        "technicalBlocker": 25,
+        "deadlineProximity": 25,
+        "commitments": 20
+      },
+      "primaryQueue": "Technical Questions",
+      "assignedQueues": [
+        "Positive Buying Signals",
+        "Technical Questions",
+        "Pricing and Negotiation",
+        "Follow-up Required",
+        "High Priority"
+      ],
+      "priority": "Urgent",
+      "priorityScore": 100,
+      "routingScore": 100,
+      "matchedRules": [
+        {
+          "ruleId": "RULE-BUY-01",
+          "ruleName": "Commercial Progression & Buying Intent",
+          "queue": "Positive Buying Signals",
+          "weight": 30,
+          "snippet": "Observed intent: \"Prospect: 'Our executive team loved the platform demo and the budget is approved for 250 enterprise seats.\""
+        },
+        {
+          "ruleId": "RULE-TECH-01",
+          "ruleName": "Architecture, Security & Integration Prerequisites",
+          "queue": "Technical Questions",
+          "weight": 25,
+          "snippet": "Technical requirement/blocker: \"However, our CISO raised a mandatory blocker: we require Okta SSO SAML integration and verified SOC2 documentation before legal can sign the MSA.\""
+        },
+        {
+          "ruleId": "RULE-PRICE-01",
+          "ruleName": "Commercial Terms & Discount Negotiation",
+          "queue": "Pricing and Negotiation",
+          "weight": 25,
+          "snippet": "Commercial detail: \"Prospect: 'Our executive team loved the platform demo and the budget is approved for 250 enterprise seats.\""
+        },
+        {
+          "ruleId": "RULE-FOL-01",
+          "ruleName": "Explicit Team Commitments & Pending Deliverables",
+          "queue": "Follow-up Required",
+          "weight": 20,
+          "snippet": "If we do not receive the SAML setup guide by Friday, the contract signature will..."
+        }
+      ],
+      "ruleVersion": "v1.4.0-composite",
+      "explanation": "Assigned to [Technical Questions] with Urgent priority (Score: 100/100). Matched 4 rule(s): Commercial Progression & Buying Intent; Architecture, Security & Integration Prerequisites; Commercial Terms & Discount Negotiation; Explicit Team Commitments & Pending Deliverables. Note: Competing signals: Customer showed strong buying intent but requires critical technical/integration validation (e.g. SSO/API). High revenue opportunity at risk if technical verification stalls.",
+      "conflictDetected": true,
+      "conflictExplanation": "Competing signals: Customer showed strong buying intent but requires critical technical/integration validation (e.g. SSO/API). High revenue opportunity at risk if technical verification stalls.",
+      "evaluatedAt": "2026-10-22T13:12:25.649Z"
+    },
+    "manualOverrides": {
+      "isOverridden": false,
+      "priority": null,
+      "primaryQueue": null,
+      "sentiment": null,
+      "assignedSalesRep": null,
+      "nextAction": null,
+      "followUpStatus": null,
+      "accountAssociation": null,
+      "notes": null,
+      "owner": null,
+      "lastOverriddenAt": null,
+      "lastOverriddenBy": null,
+      "overrideReason": null
+    },
+    "_id": "6ada0bb9eab4a699f841a760",
+    "externalId": "CONV-2024-001",
+    "source": "Zoom Phone",
+    "title": "Executive Architecture Review & Contract Readiness - Acme Enterprise",
+    "contactName": "Johnathan Briggs",
+    "contactEmail": "jbriggs@acme.com",
+    "company": "Acme Enterprise",
+    "salesRep": "Sarah Chen",
+    "conversationType": "Technical Deep Dive",
+    "timestamp": "2024-10-01T20:45:00.000Z",
+    "durationMinutes": 27,
+    "transcriptOrNotes": "Prospect: 'Our executive team loved the platform demo and the budget is approved for 250 enterprise seats. We are completely ready to sign off and roll out to our team in Q4. However, our CISO raised a mandatory blocker: we require Okta SSO SAML integration and verified SOC2 documentation before legal can sign the MSA. If we do not receive the SAML setup guide by Friday, the contract signature will be delayed.' Rep: 'I will send over our SOC2 Type II report and have our solutions engineer deliver the SSO technical specs tomorrow morning.'",
+    "opportunityId": "OPP-2024-1001",
+    "sourceStatus": "Completed",
+    "sourceNextAction": "Schedule technical validation session",
+    "sourceLastModified": "2026-10-22T13:12:25.633Z",
+    "normalizedHash": "5b18bd8f03809780f54a4d66becd11a1bede2781b4050fcde33683d3bbe90448",
+    "importBatchId": "BATCH-1792674745632-412A5F",
+    "isAmbiguousMatch": false,
+    "ambiguousReason": "",
+    "effectivePriority": "Urgent",
+    "effectivePrimaryQueue": "Technical Questions",
+    "effectiveSentiment": "Neutral",
+    "effectiveSalesRep": "Sarah Chen",
+    "effectiveOwner": "Sarah Chen",
+    "effectiveFollowUpStatus": "Open",
+    "effectiveNextAction": "If we do not receive the SAML setup guide by Friday, the contract signature will...",
+    "reviewStatus": "Pending",
+    "createdAt": "2026-10-22T13:12:25.686Z",
+    "updatedAt": "2026-10-22T13:12:25.686Z",
+    "__v": 0
+  },
+  {
+    "analysis": {
+      "engine": "deterministic-heuristic-v1.4",
+      "analyzedAt": "2026-10-22T13:12:26.718Z",
+      "summary": "Technical Deep Dive session with Acme Enterprise. Core pain: Inquiry regarding optimizing Acme Enterprise workflow efficiency Evaluation proceeding routinely.",
+      "keyDiscussionPoints": [
+        "Core pain: Inquiry regarding optimizing Acme Enterprise workflow efficiency",
+        "Architecture/integration review: However, our CISO raised a mandatory blocker: we require Okta SSO SAML integration and verified SOC2 documentation before legal can sign the MSA.",
+        "Commercial parameters: Prospect: 'Our executive team loved the platform demo and the budget is approved for 250 enterprise seats.",
+        "Advancement criteria: Prospect: 'Our executive team loved the platform demo and the budget is approved for 250 enterprise seats."
+      ],
+      "customerPainPoints": [
+        "Inquiry regarding optimizing Acme Enterprise workflow efficiency"
+      ],
+      "buyingIntentSignals": [
+        "Observed intent: \"Prospect: 'Our executive team loved the platform demo and the budget is approved for 250 enterprise seats.\"",
+        "Observed intent: \"We are completely ready to sign off and roll out to our team in Q4.\""
+      ],
+      "objections": [],
+      "competitorMentions": [],
+      "pricingDiscussions": [
+        "Commercial detail: \"Prospect: 'Our executive team loved the platform demo and the budget is approved for 250 enterprise seats.\""
+      ],
+      "technicalQuestions": [
+        "Technical requirement/blocker: \"However, our CISO raised a mandatory blocker: we require Okta SSO SAML integration and verified SOC2 documentation before legal can sign the MSA.\"",
+        "Technical requirement/blocker: \"If we do not receive the SAML setup guide by Friday, the contract signature will be delayed.' Rep: 'I will send over our SOC2 Type II report and have our solutions engineer deliver the SSO technical specs tomorrow morning.'\""
+      ],
+      "commitmentsAndPromises": [
+        "Rep/Team commitment: \"If we do not receive the SAML setup guide by Friday, the contract signature will be delayed.' Rep: 'I will send over our SOC2 Type II report and have our solutions engineer deliver the SSO technical specs tomorrow morning.'\""
+      ],
+      "actionItems": [
+        {
+          "task": "If we do not receive the SAML setup guide by Friday, the contract signature will...",
+          "owner": "Sarah Chen",
+          "dueDate": "BY FRIDAY",
+          "evidenceSnippet": "If we do not receive the SAML setup guide by Friday, the contract signature will be delayed.' Rep: 'I will send over our SOC2 Type II report and have our solutions engineer deliver the SSO technical specs tomorrow morning.'"
+        }
+      ],
+      "deadlines": [
+        "BY FRIDAY",
+        "TOMORROW"
+      ],
+      "sentiment": "Neutral",
+      "sentimentScore": 0,
+      "riskIndicators": [
+        "Critical technical or security clearance requirement pending"
+      ],
+      "suggestedNextSteps": [
+        "Involve Solutions Engineer for technical security/SSO validation",
+        "Prepare customized commercial quotation with flexible terms",
+        "Deliver committed deliverable: \"If we do not receive the SAML setup guide by Friday, the contract signature will...\""
+      ],
+      "evidenceSnippets": [
+        {
+          "tag": "Buying Intent",
+          "text": "Customer explicitly indicated progression readiness",
+          "quote": "Prospect: 'Our executive team loved the platform demo and the budget is approved for 250 enterprise seats.",
+          "relevanceScore": 0.95
+        },
+        {
+          "tag": "Buying Intent",
+          "text": "Customer explicitly indicated progression readiness",
+          "quote": "We are completely ready to sign off and roll out to our team in Q4.",
+          "relevanceScore": 0.95
+        },
+        {
+          "tag": "Technical Scope",
+          "text": "Architecture or security prerequisite",
+          "quote": "However, our CISO raised a mandatory blocker: we require Okta SSO SAML integration and verified SOC2 documentation before legal can sign the MSA.",
+          "relevanceScore": 0.92
+        },
+        {
+          "tag": "Technical Scope",
+          "text": "Architecture or security prerequisite",
+          "quote": "If we do not receive the SAML setup guide by Friday, the contract signature will be delayed.' Rep: 'I will send over our SOC2 Type II report and have our solutions engineer deliver the SSO technical specs tomorrow morning.'",
+          "relevanceScore": 0.92
+        },
+        {
+          "tag": "Commercial Term",
+          "text": "Pricing, discount or contract discussion",
+          "quote": "Prospect: 'Our executive team loved the platform demo and the budget is approved for 250 enterprise seats.",
+          "relevanceScore": 0.9
+        },
+        {
+          "tag": "Commitment",
+          "text": "Direct representative or team deliverable",
+          "quote": "If we do not receive the SAML setup guide by Friday, the contract signature will be delayed.' Rep: 'I will send over our SOC2 Type II report and have our solutions engineer deliver the SSO technical specs tomorrow morning.'",
+          "relevanceScore": 0.94
+        }
+      ]
+    },
+    "routing": {
+      "scoreBreakdown": {
+        "urgency": 20,
+        "customerRisk": 0,
+        "buyingIntent": 30,
+        "technicalBlocker": 25,
+        "deadlineProximity": 25,
+        "commitments": 20
+      },
+      "primaryQueue": "Unassigned / Needs Review",
+      "assignedQueues": [
+        "Positive Buying Signals",
+        "Technical Questions",
+        "Pricing and Negotiation",
+        "Follow-up Required",
+        "High Priority",
+        "Unassigned / Needs Review"
+      ],
+      "priority": "Urgent",
+      "priorityScore": 100,
+      "routingScore": 100,
+      "matchedRules": [
+        {
+          "ruleId": "RULE-BUY-01",
+          "ruleName": "Commercial Progression & Buying Intent",
+          "queue": "Positive Buying Signals",
+          "weight": 30,
+          "snippet": "Observed intent: \"Prospect: 'Our executive team loved the platform demo and the budget is approved for 250 enterprise seats.\""
+        },
+        {
+          "ruleId": "RULE-TECH-01",
+          "ruleName": "Architecture, Security & Integration Prerequisites",
+          "queue": "Technical Questions",
+          "weight": 25,
+          "snippet": "Technical requirement/blocker: \"However, our CISO raised a mandatory blocker: we require Okta SSO SAML integration and verified SOC2 documentation before legal can sign the MSA.\""
+        },
+        {
+          "ruleId": "RULE-PRICE-01",
+          "ruleName": "Commercial Terms & Discount Negotiation",
+          "queue": "Pricing and Negotiation",
+          "weight": 25,
+          "snippet": "Commercial detail: \"Prospect: 'Our executive team loved the platform demo and the budget is approved for 250 enterprise seats.\""
+        },
+        {
+          "ruleId": "RULE-FOL-01",
+          "ruleName": "Explicit Team Commitments & Pending Deliverables",
+          "queue": "Follow-up Required",
+          "weight": 20,
+          "snippet": "If we do not receive the SAML setup guide by Friday, the contract signature will..."
+        }
+      ],
+      "ruleVersion": "v1.4.0-composite",
+      "explanation": "Assigned to [Technical Questions] with Urgent priority (Score: 100/100). Matched 4 rule(s): Commercial Progression & Buying Intent; Architecture, Security & Integration Prerequisites; Commercial Terms & Discount Negotiation; Explicit Team Commitments & Pending Deliverables. Note: Competing signals: Customer showed strong buying intent but requires critical technical/integration validation (e.g. SSO/API). High revenue opportunity at risk if technical verification stalls.",
+      "conflictDetected": true,
+      "conflictExplanation": "Ambiguous record identity flagged: Possible duplicate conversation with different External ID (CONV-2024-001 vs CONV-2024-ALT-991) for Acme Enterprise around same timestamp.",
+      "evaluatedAt": "2026-10-22T13:12:26.718Z"
+    },
+    "manualOverrides": {
+      "isOverridden": false,
+      "priority": null,
+      "primaryQueue": null,
+      "sentiment": null,
+      "assignedSalesRep": null,
+      "nextAction": null,
+      "followUpStatus": null,
+      "accountAssociation": null,
+      "notes": null,
+      "owner": null,
+      "lastOverriddenAt": null,
+      "lastOverriddenBy": null,
+      "overrideReason": null
+    },
+    "_id": "6ada0bbaeab4a699f841a8c4",
+    "externalId": "CONV-2024-ALT-991",
+    "source": "HubSpot Meetings",
+    "title": "Duplicate Session Synced Under Alternate HubSpot ID",
+    "contactName": "Johnathan Briggs",
+    "contactEmail": "jbriggs@acme.com",
+    "company": "Acme Enterprise",
+    "salesRep": "Sarah Chen",
+    "conversationType": "Technical Deep Dive",
+    "timestamp": "2024-10-01T20:45:00.000Z",
+    "durationMinutes": 27,
+    "transcriptOrNotes": "Prospect: 'Our executive team loved the platform demo and the budget is approved for 250 enterprise seats. We are completely ready to sign off and roll out to our team in Q4. However, our CISO raised a mandatory blocker: we require Okta SSO SAML integration and verified SOC2 documentation before legal can sign the MSA. If we do not receive the SAML setup guide by Friday, the contract signature will be delayed.' Rep: 'I will send over our SOC2 Type II report and have our solutions engineer deliver the SSO technical specs tomorrow morning.'",
+    "opportunityId": "OPP-DUP-991",
+    "sourceStatus": "Completed",
+    "sourceNextAction": "Verify duplicate record identity",
+    "sourceLastModified": "2026-10-22T13:12:26.713Z",
+    "normalizedHash": "7043439e1e16a7fb823bf8fe9eb09bd47741e9f284179baa7e03ab7978f5ef93",
+    "importBatchId": "BATCH-1792674746556-DEF249",
+    "isAmbiguousMatch": true,
+    "ambiguousReason": "Possible duplicate conversation with different External ID (CONV-2024-001 vs CONV-2024-ALT-991) for Acme Enterprise around same timestamp.",
+    "effectivePriority": "Urgent",
+    "effectivePrimaryQueue": "Unassigned / Needs Review",
+    "effectiveSentiment": "Neutral",
+    "effectiveSalesRep": "Sarah Chen",
+    "effectiveOwner": "Sarah Chen",
+    "effectiveFollowUpStatus": "Open",
+    "effectiveNextAction": "If we do not receive the SAML setup guide by Friday, the contract signature will...",
+    "reviewStatus": "Pending",
+    "createdAt": "2026-10-22T13:12:26.720Z",
+    "updatedAt": "2026-10-22T13:12:26.720Z",
+    "__v": 0
+  }
+]

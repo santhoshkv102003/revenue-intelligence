@@ -1,0 +1,2 @@
+correctionId,externalId,field,previousValue,newValue,reason,actor,timestamp
+CORR-TEST-001,CONV-2024-011,priority,"""Medium""","""Urgent""",Executive escalation override,Sales Ops Lead,2026-10-22T13:12:26.554Z
